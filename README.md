@@ -1,5 +1,5 @@
 This Repository is provided to facilitate collaborative drafting and coordination for writing the chapter titled: "The Operational Framework: Institutional Controls" for the CUSP Book tited: "CONFIDENTIALITY AND DATA ACCESS 
-IN THE USE OF BIG DATATHEORY AND PRACTICAL APPROACHES".  
+IN THE USE OF BIG DATA THEORY AND PRACTICAL APPROACHES".  
 
 This repository is intended to reduce the need for meetings and emails by making good use of issues tickets and the wiki.  In addition, once we sort out a common approach to the main sections and who will take the lead for each, the normal distrbuted version control and managing multiuser content contributions. 
 
