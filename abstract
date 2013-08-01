@@ -1,0 +1,31 @@
+The Operational Framework: Institutional Controls
+
+Daniel “Dazza” Greenwood, Alex “Sandy” Pentland, Thomas Hardjono, Brian Sweatt, 
+Arek Stopczynski, Yves-Alexandre de Montjoye
+
+Abstract
+
+
+To realize the promise and prospects of big data and avoid it’s security and confidentiality perils, a balanced set of institutional controls are needed.  These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions.  Core capabilities of these controls include responsive rules-based systems governance and fine grained authorizations for distributed rights management. 
+
+Basic drivers and inhibitors underlying the emergence of big data are discussed.  Emergent characteristics and capabilities comprising larger big data trends are explored, including the emergence of location and geo-aware services, harbingers arising in urban and dense network environments, web 2.0 cross-system interoperability, federated identity for intensely personal data services and various major industry and governmental dependencies on sharing of or access to massive distributed sources of data.  
+
+This article discusses the role of personal data stores and user-centered identity for data sharing services as key components of a broader New Deal on Data approach.   From an institutional perspective, the fit of open data components, extended network systems design and cross-boundary federated infrastructures are examined as part of strategic enterprise architecture. 
+
+Illustrating the nature of institutional controls, the article posits common business, legal and technical use cases in mobile communications, financial services, social networking and e-government from the vantage points of individual users, system providers and third party users or service providers.  The current state of affairs is compared with near and longer term future big data scenarios to highlight the emerging dynamics in play.  
+
+The chapter concludes with a discussion of the problems and prospects for managing the transition to big data systems and identifies needed interdisciplinary research agendas in the computational social science, informatics, economic and political science fields.  
+
+ 
+Feedback Received:
+
+This chapter has great promise.  The chapter focuses on low-level or source level controls on data, in particular at the instrumentation or data collection/procurement level.  It would be helpful to start with defining institutional controls are and why they are needed, and contrast them very briefly with other approaches that control data rights downstream (ie. through legal restrictions at the access stage).   It would be great to spell out the underlying conceptual framework and then use the framework to provide a context to the very nice focus on “the current state of affairs, as well as the near and longer term  scenarios”.  
+ 
+The focus on illustrative examples is also attractive, because of the general nature of the audience. If you could provide specific examples, even if just for your own research or lab, that would be very helpful, and it would be extremely helpful if you could compare and contrast the approach with the analogous controls for, say, the census data example discussed in chapter 9, or those controls in place at data.govand research.data.gov.   
+ 
+The chapter also expands the discussion to include downstream industry use rather than just research applications in a traditional sense. This distinction should be quite clear since other chapters have a slightly different scope
+ 
+If the authors have a sense of solutions to the trends and dynamics they see emerging, even partial ones based on their earlier discussion in the chapter, that would be very helpful to concretize the work.
+ 
+Please use the active voice as much as possible.
+
