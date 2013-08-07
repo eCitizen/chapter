@@ -1,0 +1,68 @@
+Essential Elements of the New Deal on Data in the Context of Institutional Controls [Arek]
+
+To realize the 
+promise and prospects of big data and 
+avoid it’s security and confidentiality perils, 
+a balanced set of institutional controls are needed. 
+These institutional controls 
+must
+support and reflect 
+greater user control over personal data and 
+also large scale interoperability 
+for data sharing 
+between and among institutions. 
+Core capabilities of these controls 
+include responsive 
+rules-based systems governance and 
+fine grained authorizations for 
+distributed rights management.
+
+
+
+From the institution standpoint it is easier to facilitate data exchange: institution acting as a matchmaking service, user authorization fully 
+expressed by the user 
+
+
+this requires identity: who owns the data, who decides, who accesses...
+
+some data must be authorized to be used; some identity attributes must be authorized
+
+the ownership is not about changing, it is about control
+
+at the very least, the knowledge that data exists
+
+
+---
+
+Our lives are embedded in the institutions. We are citizens of the countries and cities, we are provided services from telecom operators, we search for things to buy in the online stores. We generate the data in the context of institutions.
+These data, breadcrumbs of our lives, are an important part of the Big Data promise. It is useful as it is not curated by us, in its size it can accurately describe our lives as they happen. 
+
+A challenge is to open the data from the institutional silos and make it useful for the good of individuals and entire societies. It doesn't matter how big and detailed is the human mobility data collected by the telcom operators, if it cannot be used for research and providing services. More, even when the data from particular silos can be opened, doing that for the multiple silos at the same time is a close to impossible challenge. Silos are hard to crack open.
+
+We have recently showed how challenging is opening this data, but also that is possible and can lead to important, life-changing insights when researched upon. The Data 4 Development challenge...
+
+Opening the data by publishing it as a static dataset is important, but is only the first step. We can do even better when the data is available in real-time and can become a part of the nervous system of the society. For this however, the privacy concerns become huge. Being able to access my movement in real-time can help to contain epidemics and avoid traffic congestion. It can be also used for stalking, burglarizing my home, and as a proof in court of my unfaithfulness.
+
+As we have shown in the Unique in the Crowd project, even though human beings are highly predictable (Laszlo paper), we are also very unique. Even in a single dataset, humans are pretty unique. Fingerprint someone using a different small datasource and you can track her movements in the large dataset. The higher resolution of the data, the easier it gets. On the other hand, decreasing the resolution does not really help with the problem, we tend to stay unique even in coarse datasets. 
+
+The question of privacy in this context is effectively the question of control. Who can release the data of my movements? To whom? How much and how often? Etc. The institutions collect the data. It is about you. It does not however belong to you. You may not even be aware that it exists, you cannot decide who can use it and for what purpose. You cannot take it out. You cannot delete it. It is not only the problem from your perspective. To use the data for anything, one has to get the access from the institutions that owns the data. It is not trivial. To correlate data from two sources, one has to talk to two institutions. This gets prohibitively expensive. The data is rendered virtually useless.
+
+It is however possible to change the vantage point and put the user, the entity about whom the data is, in control. The telecom data of my movements, describing me, should be given to me. It may be a copy, in a sense that the institutions retains the control over their copy of data, at the same time I am given the ownership of the copy. We can see such model in the Blue Button initiative, where the patients are entitled to get (electronically) the copy of their health records. Once the copy is with them, they can do with it as they wish: give to someone, make public, do research on it, destroy. 
+
+This approach does not break the system. If the institution can transfer the ownership, that is great. If only copy can be given to the user, it still makes it possible to crush the silos, as now the user becomes the entity that can be asked to provide access to the data, from multiple sources, and has a full power of granting or rejecting such authorization. Everything, every research, every application, becomes a client to the users' data. Data, coming from multiple silos, integrated within the user domain. 
+
+This changes the type of data that can be obtained. Rather than gaining access to the movements of millions of people from a telcom operator, one can gain access to thousands rich datasets describing the users from the mobility, health, shopping etc. perspectives. Naturally, there is nothing preventing someone from getting the consent of all the millions of users to access their data, we can however appreciate that this will be more difficult. And yet, we believe that the rich data from smaller populations will be significantly more valuable than global, but low-dimensionality data. And those two modalities can co-exist to certain extend.
+
+The first, operational challenge of moving towards the end-user data ownership on a large scale, is to make the personal data used by anyone. The entire ecosystem operates currently on feudal principles: Facebook owns the data generated by you and about you, and will provide the access to it to the 3rd parties that you might or might have not authorized. It is reasonably easy to download all your data from Facebook. It is reasonably easy to put it on Dropbox or even create me-api, becoming a self-hosted API to one's own personal data. The challenge is to have any client to talk to this API and provide service. Everyone is ready to talk to Facebook about your data. Virtually no-one is ready to talk to you. The Internet has done a reasonably better job with identity: you can deploy your own OpenID server fairly easily, and many services will allow you to sign in. We should be heading in the same direction with data.
+
+The way the user grants the authorizations to the data he owns, is not a trivial matter. Think who you have authorized to know what city you are in today. The Yes you have clicked many times, gave access to your location to multiple services. Every tweet, every geo-tagged picture, every checkin provides your location not only to the primary service you are using, but also to all the applications that you have authorized to access this data. Take a look at your applications page on Twitter, Facebook, Google...
+
+If we are talking about increasing the amount of data the user controls, and increasing the granularity of the control, it would be meaningless if this control cannot be exercised in an informed way. The EULA-catastrophe, where you may be just as well giving up your soul when signing up, will not bring us closer to the New Deal on Data. In the end, it must the be user that makes the informed decision about who will get the access to the data and for what purpose. Make the authorization interface too complex and you will fail. Make it too simple, and you will also fail. Write it in legal complex language, and you cannot claim that the user expresses Informed consent. Start asking the user about authorization every 5 minutes, and you will only teach her to press Yes every time. 
+
+In addition to the data ownership, we need a better way for the end-user to control what happens with it. Will user realize that clicking the Yes button will provide a service with a second-resolution location data? And what can be inferred from such data, regarding alcohol abuse (we see you a lot in a liquor store), driving habits, not enough exercise etc. This gap between the interface and the effect, can pretty much render the data ownership meaningless. There is a need for Living Informed Consent, where the interface for the user to grant the authorizations is created to give the user understanding of the consequences of the authorizations she is granting. It will never be perfect, but aligning this user's understanding with the reality is the goal of the Living Informed Consent initiative. 
+
+We envision several ways the Living Informed Consent can improve user's understanding of the authorization she is granting. The underlaying principle is that the status of the authorizations expressed via the interface is the contract. By pressing the buttons, the user initiates technical actions (for example creation of OAuth2 tokens), but also changes her business and legal relation with the service. Such single screen, with a timestamped log constitutes a history of the consent. It may differ in granularity (do not collect my data this evening), and some actions may or may not be permitted. Still, at any point in time, the user is in certain relation with the service, on the Business, Legal, and Technical plains. 
+The consent only makes sense when the user understands what she is consenting to. Otherwise, why even bother asking. Part of the gestalt is to provide concise authorizations description written in plain English. They will not always be trivial and may sometime turn into paragraphs of text, still the goal should be to provide a description easily understandable for the target audience.
+Additionally, the goal should be not only to ask for the access to data, but also include the purpose of the access. Location is a type of data. Using location to provide personalized music and using location to increase my insurance for careless driving are two very different authorizations. Currently, the widely used OAuth2 framework does not support the notion of purpose, focusing only on the data being accessed.
+Dimensionality reduction....
+Feedback on data usage... 
