@@ -1,0 +1,110 @@
+\documentclass{sigchi}
+
+% Use this command to override the default ACM copyright statement (e.g. for preprints). 
+% Consult the conference website for the camera-ready copyright statement.
+\toappear{
+	
+}
+
+% Arabic page numbers for submission. 
+% Remove this line to eliminate page numbers for the camera ready copy
+\pagenumbering{arabic}
+
+
+% Load basic packages
+\usepackage{balance}  % to better equalize the last page
+\usepackage{graphics} % for EPS, load graphicx instead
+\usepackage{times}    % comment if you want LaTeX's default font
+\usepackage{url}      % llt: nicely formatted URLs
+
+% llt: Define a global style for URLs, rather that the default one
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\bf\ttfamily}}}
+\makeatother
+\urlstyle{leo}
+
+
+% To make various LaTeX processors do the right thing with page size.
+\def\pprw{8.5in}
+\def\pprh{11in}
+\special{papersize=\pprw,\pprh}
+\setlength{\paperwidth}{\pprw}
+\setlength{\paperheight}{\pprh}
+\setlength{\pdfpagewidth}{\pprw}
+\setlength{\pdfpageheight}{\pprh}
+
+% Make sure hyperref comes last of your loaded packages, 
+% to give it a fighting chance of not being over-written, 
+% since its job is to redefine many LaTeX commands.
+\usepackage[pdftex]{hyperref}
+\hypersetup{
+pdftitle={SIGCHI Conference Proceedings Format},
+pdfauthor={LaTeX},
+pdfkeywords={SIGCHI, proceedings, archival format},
+bookmarksnumbered,
+pdfstartview={FitH},
+colorlinks,
+citecolor=black,
+filecolor=black,
+linkcolor=black,
+urlcolor=black,
+breaklinks=true,
+}
+
+% create a shortcut to typeset table headings
+\newcommand\tabhead[1]{\small\textbf{#1}}
+
+
+% End of preamble. Here it comes the document.
+\begin{document}
+
+\title{The Operational Framework: Institutional Controls}
+
+
+
+\maketitle
+
+\begin{abstract}
+To realize the promise and prospects of big data and avoid it’s security and confidentiality perils, a balanced set of institutional controls are needed.  These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions.  Core capabilities of these controls include responsive rules-based systems governance and fine grained authorizations for distributed rights management. 
+
+Basic drivers and inhibitors underlying the emergence of big data are discussed.  Emergent characteristics and capabilities comprising larger big data trends are explored, including the emergence of location and geo-aware services, harbingers arising in urban and dense network environments, web 2.0 cross-system interoperability, federated identity for intensely personal data services and various major industry and governmental dependencies on sharing of or access to massive distributed sources of data.  
+
+This article discusses the role of personal data stores and user-centered identity for data sharing services as key components of a broader New Deal on Data approach.   From an institutional perspective, the fit of open data components, extended network systems design and cross-boundary federated infrastructures are examined as part of strategic enterprise architecture. 
+
+Illustrating the nature of institutional controls, the article posits common business, legal and technical use cases in mobile communications, financial services, social networking and e-government from the vantage points of individual users, system providers and third party users or service providers.  The current state of affairs is compared with near and longer term future big data scenarios to highlight the emerging dynamics in play.  
+
+The chapter concludes with a discussion of the problems and prospects for managing the transition to big data systems and identifies needed interdisciplinary research agendas in the computational social science, informatics, economic and political science fields.  
+\end{abstract}
+
+
+
+\include{2_the_new_deal_on_data}
+
+% Balancing columns in a ref list is a bit of a pain because you
+% either use a hack like flushend or balance, or manually insert
+% a column break.  http://www.tex.ac.uk/cgi-bin/texfaq2html?label=balance
+% multicols doesn't work because we're already in two-column mode,
+% and flushend isn't awesome, so I choose balance.  See this
+% for more info: http://cs.brown.edu/system/software/latex/doc/balance.pdf
+%
+% Note that in a perfect world balance wants to be in the first
+% column of the last page.
+%
+% If balance doesn't work for you, you can remove that and
+% hard-code a column break into the bbl file right before you
+% submit:
+%
+% http://stackoverflow.com/questions/2149854/how-to-manually-equalize-columns-
+% in-an-ieee-paper-if-using-bibtex
+%
+% Or, just remove \balance and give up on balancing the last page.
+%
+\balance
+
+% If you want to use smaller typesetting for the reference list,
+% uncomment the following line:
+% \small
+\bibliographystyle{acm-sigchi}
+\bibliography{bibliography}
+\end{document}
