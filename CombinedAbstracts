@@ -1,0 +1,620 @@
+Overview and Combined Abstracts
+
+PROPOSED BOOK AND CONFERENCE “CONFIDENTIALITY AND DATA ACCESS IN THE USE OF BIG DATA: THEORY AND PRACTICAL APPROACHES”
+GOAL
+The goal of the book is to identify ways in which vast new sets of data on human beings can be collected, integrated, and analysed to improve urban systems and quality of life while protecting confidentiality. It seeks to provide both a theoretical and practical foundation which cities across the world can draw from in establishing their data access rules and data security procedures.
+The book is expected to have the same influence as the previous Confidentiality, Disclosure and Data Access: Theory and Practical Applications for Statistical Agencies, coedited by Pat Doyle, Julia Lane, Laura Zayatz and Jules Theeuwes, North Holland, 2001.
+The conference is intended to act as a means to promote and disseminate the information contained within the book, as well as to build a community of practice that includes city urban planners, the new public-private research centers that are building urban data infrastructures, and the privacy and confidentiality research community.
+ SPONSORSHIP
+The primary sponsor is NYU’s Center for Urban Science and Progress (CUSP). Additional sponsors include the American Statistical Association and its Privacy and Confidentiality subcommittee, as well the Research Data Centre of the German Federal Employment Agency.
+BACKGROUND
+Big data mean that a new analytical paradigm is open to statisticians and social scientists (Hey, Tansley, & Tolle, 2009). The statistical community has moved beyond survey and even administrative data to begin to understand how data can be mined from social media to capture national sentiment, from cellphone data to understand anti-government uprisings, and from financial data to examine swings in the economy. The funding opportunities are also there, viz. the White House “Big Data” initiative. And the need to use such data is apparent from the establishment of the CUSP as well as the institution of the Consumer Finance Protection Board, as well as the interest of federal statistical agencies. But the excitement of being able to access and analyze large amounts of micro data on human beings should be tempered by a commitment to minimize the threats to individual privacy and confidentiality.
+Pushing the metaphor further, the current state of “big data” for the research community is still the Wild West. As order and analytical rigor is brought to the new data frontier, we should ensure that the future structure of data access ensures that the goal of good science is attained while protecting confidentiality.
+There is a great deal of research that can be used to inform the development of such a structure, but it has been substantially siloed into separate activities in different research areas – statistics, cybersecurity, cryptography – as well as a variety of different practical applications, including the successful development of remote access secure data enclaves. There has also been a great deal of research on the features of reproducible science, particularly in the computer science and legal community.
+DRAFT BOOK OUTLINE AND TIMELINE
+We propose to follow the same approach used successfully production of a set of white papers that can be used to inform big data policy and a book aimed at having the same influence as the previous Confidentiality, Disclosure and Data Access: Theory and Practical Applications for Statistical Agencies, coedited by Pat Doyle, Julia Lane, Laura Zayatz and Jules Theeuwes, North Holland, 2001. Each author will be asked to submit an abstract, a first draft and a second draft.
+
+ 
+Introduction
+
+Authors’ Introduction
+AUTHOR
+EDITOR
+This chapter will discuss why cities are a natural unit for analysis including their unique position as a natural economic, social and geographic entity, their centralized management and administrative structure, and their potential and actual use of big data for management. It would discuss the findings of the chapters in terms of the current and future uses of big data to inform research and policy in cities. It will also provide insights into how approaches developed in cities could be used in different geographical units, such as states or nations.
+
+ 
+Chapter 1: Identifying the Need and the Tensions: Privacy, Security & Transparency of Big Data in the Governmental, Commercial, Academic and Personal Spheres.
+
+
+AUTHOR Steve Koonin CUSP
+EDITOR
+This chapter focuses on how understanding and exploiting data creates economic value, allowing governments to become more effective, reduce reporting burdens, generate economic activity, and provides opportunities for growth in small companies to large corporations. Address the inherent tradeoff between data utility and data privacy in the context of the types of data that are now being collected. This chapter should also comment upon institutional contexts, e.g., identical collections and analyses are perceived very differently if done in a governmental versus commercial context.
+2 See, for example, http://www.lrdc.pitt.edu/schunn/cdi2009/home.html
+Chapter 1: Identifying the Need and the Tensions: Privacy, Security & Transparency of Big Data in the Governmental, Commercial, Academic and Personal Spheres.
+ 
+This chapter focuses on how understanding and exploiting data creates economic value, allowing governments to become more effective, reduce reporting burdens, generate economic activity, and provides opportunities for growth in small companies to large corporations. Address the inherent tradeoff between data utility and data privacy in the context of the types of data that are now being collected. This chapter should also comment upon institutional contexts, e.g., identical collections and analyses are perceived very differently if done in a governmental versus commercial context.
+
+0.	Intro:  Two macro, on-going trends are intersecting with profound consequences.  One is Urbanization (enabling economic progress, innovation, quality of life, and offering privacy not possible in villages).  The second is the rise of IT:  – falling costs of sensors, computational power, and data transmission/storage, the consequent penetration of IT into all aspects of society, and the analytics that allow for information of unprecedented granuality, variety, and coverage to be extracted from data.    While benefits of “big data” have been demonstrated (and more tocome), the ease of re-identification through correlation of disparate data sets threatens to reverse the benefits of urban anonymity.  
+1.	Uses of data w/ examples: commercial, government, scientific
+2.	An Urban Data Taxonomy (with examples)
+a.	Data about: People, Environment, Infrastructure
+b.	Data types: Organic, in-situ sensor, synoptic
+c.	Data cadence: Streaming vs batch
+3.	Methodologies for exploiting “big data” 
+a.	Outliers
+b.	Proxies
+c.	Correlative / causal inference
+d.	Model validation
+4.	Steps in the data chain
+a.	Acquisition
+b.	Clean up
+c.	Visualization
+d.	Analyze
+e.	Model & Simulation: descriptive, predictive
+5.	Challenges in dealing with data
+a.	Disparate hands & organizational silos
+b.	Disparate formats…. (machine readable or not) even as IT erases the “practical obscurity” of paper records; fusing imagery with geographical tracks with text with …
+c.	Bureaucratic disincentives
+6.	Tensions
+a.	Exploratory v hypothesis driven:  analyses traditionally bound by purpose of collection
+b.	Don’t ameliorate privacy concerns with transparency policy that leads to security problems.
+c.	Organizations matter:  Differing perspectives on identical data held by different sectors (commercial, non-profit, academic, govt)
+d.	Asymmetry in costs & benefits (broad but small societal benefits arrayed against narrow but potentially large individual costs.)
+Different domains’ best practices lead to different privacy norms, which lead to different balance points.  Correlations of data governed by different privacy frameworks can be challenging.  [http://www.yalelawtech.org/privacy-who-can-you-trust/government-data-balancing-transparency-and-privacy/]
+
+ 
+Chapter 2: Information Extraction
+
+AUTHOR Andrew Gelman and Mark Hansen Columbia, UCLA
+EDITOR
+This chapter discusses issues in statistical modeling of modern “big data,” with an emphasis on new challenges created by dataset size, diversity, and confidentiality issues for the data underlying “big data,” for example data collected by sensors in urban settings, medical data such as human genome data, social network data, and other new sources of data. This chapter could also discuss the role and responsibilities of the data analyst and what it means to extract data from big data today and going forward.
+
+Our contribution to this this volume will look at data collection and analysis of and by the public. We have both been involved in projects that directly solicit "participants" to help in some aspect -- From installing sensors in their homes and communities, to making qualitative observations of their surroundings, to individual "n-of-1"
+studies.
+
+Combining our experience, together with research on similar kinds of projects, we will examine a framework for reasoning with data in the public realm, partnering with the public. We've broken the problem into a few components -- Data definition, data gathering, data interpretation, and then some kind of action. These are wrapped in rich feedback loops.
+
+The idea of Big Data seems to frame these cycles in a particular way, "operationalizing" data and casting the underlying motivation as one of problem solving. The relationship between the public and their data, and the questions posed and the approaches used to address them can ignore the needs of individuals and communities.
+
+And so our contribution to the volume would ask what statisticians or other data scientists can do to engage the public in responsible ways. In our brief conversations, we have mapped out "axes" which might serve to map the terrain of possibilities.
+
+One, for example, describes engagement -- From mindful to mindless.
+On one end of the spectrum, participants understand and see clearly how they are contributing to a particular data-driven goal or outcome. While at the other end, participants are asked to place a mysterious sensor in their home or identify whether or not an image contains text a la a Mechanical Turk Hit. This axis really involves informational return to and authority of the participants.
+
+From surveys to HITs to privately deployed sensing to data captured by our interactions with large, corporate entities like Google, we will examine the ways in which data collection and analysis take place in the public. 
+Chapter 3: The Economics and Behavioral Economics of Privacy
+AUTHOR Alessandro Acquisti Carnegie Mellon University
+EDITOR
+This chapter focuses on costs, benefits, and incentives. Does behavioral economics shed light on why what people say about their desired level of privacy differs from the levels of information they disclose? As increasingly pervasive technology all but sets the default to disclosure, is the level of effort to protect each disclosure so great that only exceptional individuals are willing to expend that level of effort? Do younger citizens have different norms regarding privacy for their digital footprint?
+Confidentiality and Data Access in the Use of Big Data: Theory and Practical Approaches
+
+
+The Economics and Behavioral Economics of Privacy
+Alessandro Acquisti
+
+
+Abstract
+
+This chapter examines the growing body of theoretical and empirical research on the economics and behavioral economics of privacy, and how those streams of research can be applied to the investigation of the economic implications of “big data.” It begins by highlighting why privacy-sensitive scenarios and outcomes can be often interpreted through economic lenses. It then applies micro and macro economic frameworks to the analysis of trade-offs arising both from the disclosure and the protection of personal data. It continues by describing the role of behavioral economic and decision research in understanding privacy (and disclosure) decision making. It ends by comparing societal and individual trade-offs involving potential benefits of big data, on one side, and potential costs to privacy, on the other side.
+
+ 
+Chapter 4: 
+AUTHOR Theresa Pardo SUNY Albany
+EDITOR
+This chapter should focus on why cities are a natural unit for data collection and opportunities for improving information available to city agencies, in the context of the data they have and the pressures they face (internal, external, political, and policy). For example, do municipalities generally enjoy greater citizen trust than state/provincial or national governments? Do municipalities have the authority to innovate in data collection and privacy protection? If municipalities don’t have the authority to set privacy standards, what privacy approaches have cities used in the past and what are their levers for influencing best practices?
+CONFIDENTIALITY AND DATA ACCESS IN THE USE OF BIG DATATHEORY AND PR ACTICAL APPROACHES
+The Context of Cities, T. Pardo, Chapter Abstract v1
+
+Soon the cities of the world will be home, for the first time in human history, to more than 50% of the world’s population. These cities, old and some very new, are facing unique pressures from all quarters - externally from those who live and work there, internally from those running city programs and services and overall on politicians who must navigate the fine line between politics and leadership.  In a 21st century city, data is a critical asset in both exerting and responding to such pressure. The changing face of cities and the unique ways information is being used to both fuel and manage such change will serve as a backdrop to a discussion of privacy as a concept and as a critical part of an organizing framework for data management and use at the municipal level. The nature of authority over privacy at the municipal level will be reviewed with a goal toward highlighting innovations in municipal privacy standards and policy development.  Barriers and enablers to expanded use of data stemming from privacy policy and standards in the context of a city will be outlined with case examples. The chapter will conclude by outlining the gaps in our knowledge about municipal data privacy policies and practices and present several recommendations for a going forward research agenda. 
+ 
+Chapter 5: Big Data: Death Knell for Informed Consent
+AUTHORHelen NissenbaumNYU
+EDITOR
+This chapter should lay out differing frameworks for privacy and point out practicalities of where clashes between them arise. This chapter should also address where and how public benefits of data capture and analysis (improved scientific understanding or governmental efficiency) are balanced against a negative right to privacy. Is the ethical calculus different for non-profit than for-profit entities? What challenges cannot be handled by existing law and what should the approach be?
+Big Data: Death Knell for Informed Consent
+Solon Barocas and Helen Nissenbaum: Draft Abstract: July 3 2013
+
+Informed consent has served as a cornerstone for the protection of both research subjects and data subjects in the parallel pursuits of research integrity and privacy policy, respectively. Not an end in itself, informed consent is a compelling means of respecting individual autonomy, including rights of self-determination, to make choices, to take or avoid risks, to express preferences and to resist exploitation.  In both arenas, there has been sustained interest in designing good protocols for embedding informed consent into relevant processes, that is, protocols addressing two essential questions: what it means to consent and what it means to inform.  
+
+The rise of the Internet and Web as dominant media of activity, transaction, and interaction opened unprecedented modalities for collecting, disseminating, and using information and in so doing placed impossible strain on past measures of informing and obtaining consent. The dominant solution to these new challenges has been online privacy policies, frequently presented as components of unilateral terms-of-service contracts. 
+
+Persuaded by ample evidence that most of us neither read, nor understand these ubiquitous privacy policies, regulatory agencies are demanding improvements. Informed consent (in online domains, often dubbed “transparency and choice,” or “notice and consent”) remains the linchpin of these efforts with attention mostly focused on modes of operational expression, specifically, on: 1) improving the ways privacy policies are communicated so they furnish more effective notice and, 2) designing mechanisms that more meaningfully model consent. The idea that informed consent itself may no longer be a match for challenges of digital media technology and institutions has not significantly affected mainstream thinking and practice.
+
+As debates continue to swirl around privacy online, big data has opened yet another front of controversy. Informed consent still carries enormous weight in shaping policy directions for constitutive practices of data accumulation, analysis, and use, yet, this time, more voices are noting its limitations and seem open to considering alternatives. Our article will develop this line of argument, picking up from previous work in which we held that the failures of mainstream approaches were not a function of operational design, but rather were symptoms of a deeper problem with informed consent itself. The mechanism of informed consent may function well in certain environments and against certain threats, but we need radically new ideas to meet challenges of digital media and big data, where informing individuals of the potential consequences of their choices (for themselves and others) may be literally impossible.  Our paper will briefly review some of the better-known challenges to existing models of informed consent and discuss, in greater detail, those we consider intractable. In concluding our article, we explore alternative to protecting general threats to privacy, showing the relevance of insights drawn from the domain of research integrity. 
+
+ 
+Chapter 6: The Legal And Regulatory Framework: What Do The Rules Say About Data Capture And Reuse?
+AUTHOR Katherine J. Strandburg NYU
+EDITOR
+Do people have an ownership stake in personal data? Does the law treat “shedded” data (e.g., location derived from call detail records) or “observed” data (e.g., video, sensor streams) differently than “disclosed” data (e.g., administrative records, social media)? What does the Federal Information Processing Standard bring to bear on this? While statutory and follow-on regulatory frameworks dominate, it would also be valuable to point out observations about any trends arising from case law. what challenges cannot be handled by existing law and what should the approach be.
+Plain View, Third Parties, Surveillance, and Consent: Legal Approaches to Data making in the Big Data Context
+Abstract for Chapter 6: The Legal and Regulatory Framework: What do the rules say about data capture and reuse?
+Katherine J. Strandburg
+
+It is commonly asserted that United States privacy law constrains data collection far more than it regulates data use.  Indeed, as discussed in the next chapter, US law’s lack of concern with data use leaves major gaps in privacy protection.  The law pays much more attention to the way in which information is acquired.  Nonetheless, it may be misleading to say that US law emphasizes “data collection.”  US privacy law does not focus on regulating the creation of “data” in the sense relevant for “big data.” (Merriam Webster, for example, defines data as “factual information (as measurements or statistics) used as a basis for reasoning, discussion, or calculation.”)  Instead, the law concerning information acquisition has two distinct conceptual threads, one motivated by concerns about unwarranted intrusions into private spheres and the other concerned with power imbalances and information asymmetries in relationships in which personal information will be shared.  
+
+Historically, the organizing principle of US privacy law was concern with intrusion into a private sphere. This concern continues to motivate a significant swath of the law.  The Fourth Amendment to the Constitution, for example, constrains the government’s power to “search” the citizenry’s “persons, houses, papers, and effects.”  The privacy torts erected by most states on the foundation of the famous Warren and Brandeis article of 1890 create liability for “intrusion upon seclusion.”  Whatever is in “plain view” and not subject to a “reasonable expectation of privacy” is simply outside the scope of the laws in this thread.  While there is substantial debate over the contours of the private sphere, which has been interpreted quite expansively on occasion, the focus remains on whether information is acquired by unwarranted intrusion. 
+
+A second thread of US privacy law is motivated by concern that personal information necessarily disclosed by one party within certain kinds of relationships will be misused by the other party, generally because of power imbalance or information asymmetry.  Traditional examples of this type of law are the breach of confidentiality tort, ethical regulations applied to professionals such as lawyers and physicians, regulations of medical research, and so forth.  Because they are concerned with information divulged within potentially unequal relationships, these laws generally adopt an informed consent model intended to mitigate information asymmetry and bind the more powerful party to its representations about its intended uses of the information.   The Fair Information Practice Principles (FIPPs), which form the basis for most privacy regulation applicable to consumer data collected by online entities, grew out of this thread.   They were developed in response to fears about the power of automated data processing at a time when computers were generally in the hands of governments and large corporations.  Despite the FIPPs explicit application to “data,” they also adopt a relationship-based model of notice and consent and confine their strictures to “personal information.”
+
+Neither of these threads of legal doctrine is adequate to regulate data collection and data making in the “big data” context because neither is geared to the questions that large-scale data collection raises.  The mismatch is already evident in struggles by courts and legislatures to deal with issues such as location tracking, smart grid data, and so forth.  It will be even more glaring when the law must contend with future big data applications.  While the issues of intrusion into private spheres and power and information asymmetries in relationships requiring the divulgence of personal information are still with us in the big data context, there is a need to grapple both conceptually and as a policy matter with additional concerns.  In particular, we need to consider the policy issues raised when information concerning public behavior, information that is not especially “personal,” information disclosed in relationships that do not involve asymmetric information and power, and so forth are collected and transformed into data.  The making of data on a massive and aggregated scale raises questions that simply are not answered by the paradigms that have dominated privacy law to date.
+
+This chapter will use the above analysis to frame an overview of US privacy law and of some current legal debates and legislative proposals.  It will then attempt to set out a research agenda for defining a more adequate approach to the data making issue in the “big data” context.
+
+ 
+Chapter 7: The legal and regulatory framework: what do the rules say about data analysis?
+AUTHOR Paul Ohm Colorado
+EDITOR
+This chapter should cover the duty to protect information held. While statutory and follow-on regulatory frameworks dominate, observations about any trends arising from case law would be valuable to point out. It would also be helpful to discuss what challenges cannot be handled by existing law and what might be potential approaches.
+Confidentiality and Data Access in the Use of Big Data
+Abstract for Chapter 7: The legal and regulatory framework: what do the rules say about data analysis?
+Paul Ohm, University of Colorado Law School 
+Expanded Chapter Summary:
+
+This chapter focuses on laws and regulations that govern the use of information that may apply to Big Data applications. Traditionally, U.S. law has focused primarily on the collection, and to a lesser extent the disclosure, of data and has left uses unregulated. European law, in contrast, governs use of information much more broadly, although it too is subject to gaps and exceptions. This chapter will survey the operation of a subset of these laws, focusing in particular on the Privacy Act and Health Information Portability and Accountability Act (HIPAA) in the U.S. and the Data Protection Directive in the E.U.  Big Data techniques will put pressure on regulations like these, likely both underprotecting and overprotecting privacy. This chapter will identify these disconnects or gaps in coverage and, drawing on a rich recent literature in regulating privacy, will propose a new conceptualization for privacy protection.
+
+Outline
+Introduction
+How Big Data Disrupts Privacy Law
+Big data techniques possess several features that make them very resistant to traditional regulatory approaches.
+Big Data is about drawing surprising correlations, thus laws focused on predictability, notice, and choice likely do not apply.
+Big Data inferences often escape human understanding, posing challenges to regulators and lawmakers trying to craft rules focused on the intent of human operators.
+BD resists solutions based around noise, militating against solutions that require analysts to obscure or anonymize data.
+The current regulatory frameworks
+Overriding framework
+FIPPS: Fair Information Practice Principles
+Brief history
+What the FIPPS require and how they may not protect against threats from Big Data
+Specific Examples: United States and the sectoral Approach
+The sectoral approach, defined
+In most sectors
+Focus is on the collection of data (see Chapter six)
+No regulation of use or disclosure
+Exceptions: Sometimes rules regulate use.
+Privacy Act
+Wiretap Act
+First Amendment Limitations
+EU: Data Protection Directive
+Transparency
+Legitimate Purpose
+Proportionality
+Gaps in the current coverage
+In the US, major gaps in coverage
+The End of PII
+But in EU and where there is coverage in the US, still an imperfect fit
+Over-protective of privacy
+Tied closely to consent, so may not allow significant beneficial uses that implicate privacy only slightly
+Under-protective of privacy
+General critique of the FIPPS
+Citing Cate and others
+Critique especially relevant as applied to FIPPS
+A new conceptualization
+Theory
+Nissenbaum: Privacy in Context
+Cohen: Semantic Discontinuity
+Gaps and Spheres
+Citron: Procedural Due Process
+Broad conceptions of "privacy"
+Hallmarks of BD Privacy Regulation
+No silver bullets
+A loss of precision
+From regulating data to connections and inferences
+Sectoral approaches
+The accretion problems
+Framework for new laws
+Beyond PII
+Human-centered
+Perhaps a new FIPP
+Binding data users to the mast
+Paul Ohm, Branding Privacy
+Keep big data and small data distinguishable
+Reminders about the human consequences
+Refocus on risky types of data
+The new hallmarks of risky data
+Sensitive
+Rare
+Frequent (pseudo-identifiers)
+Quantity of Data Held
+
+ 
+Chapter 8: Reproducibility and Scientific Integrity in Big Data Research: Navigating the Legal and Regulatory Framework
+AUTHOR Victoria Stodden Columbia
+EDITOR
+What are possible solutions that could bridge the gap between open access to data and an access-blocking NDA? What might templated data sharing agreements between academic researchers and data producing companies look like?
+Reproducibility and Scientific Integrity in Big Data Research: 
+Navigating the Legal and Regulatory Framework
+
+Victoria Stodden
+
+Abstract
+
+Access to the data and methods is considered necessary for the verification and validation of published research findings. Federal mandates and regulations regarding data disclosure, privacy, confidentiality, and ownership influence the ability of researchers to produce really reproducible research. This article discusses the regulatory landscape in the context of big data and proposes two novel solutions to maintain the integrity of the scientific record: creating “walled gardens” that maximize access to restricted data and open data contracts that ensure compliance with disclosure mandates. Finally several regulatory changes are suggested to facilitate reproducibility and the use, re-use, and application of findings and research data beyond the scientific context.
+
+
+
+ 
+Chapter 9: Analytical Frameworks for Data Release: A Statistical View
+AUTHOR Alan Karr and Jerry Reiter NISS, Duke University
+EDITOR
+What is the statistical framework that can be used to determine the risk of re-identification? What is the statistical framework that can be used to protect new types of data? What are the consequences for the utility of data analysis? Which approaches that have been used to limit disclosure of survey data can be applied to “big data”? What are the gaps in our knowledge (ie what is the future research agenda)?
+Analytical Frameworks for Data Release: A Statistical View
+Alan Karr, Jerome Reiter∗ June 17, 2013
+
+Official statistics agencies (such as the US Census Bureau) have a long history of providing access to confi- dential data to researchers, policy analysts, decision makers and others. Many of these datasets are derived from probability surveys or, in some cases, censuses. Even in complete form, they are not what would typically be thought of as big data, with respect to scale (numbers of cases and attributes), complexity of attribute types, or structure (most are released, if not actually structured, as flat files).
+In this chapter, we explore interactions between data dissemination and big data. What lessons can those with big data learn from statistical agencies’ experience? Given that “big data” also means “big computation,” how will agencies future practices be affected? What might the future of big data dissemination look like?
+To address these questions, we begin with brief overviews of statistical disclosure limitation techniques and practice. We do not intend for these to be comprehensive (there are enough reviews around already!), but we do need to set the stage for the discussions. After describing the framework for statistical disclosure limitation (SDL), we discuss what aspects of this framework might be useful for big data dissemination. The blunt answer, we believe, is that typical SDL techniques are not likely to be effective for big data, except in special cases; new techniques are needed if SDL is to be used with big data. However, we also believe that the framework used in SDL research and practice — assess costs and benefits of data dissemination to determine acceptable trade offs — is likely to be useful. We conclude with discussion of future research needed and possible visions of big data dissemination.
+More specifically, we take that position that—in spite of many steps toward wider data availability—legal, ethical, scale and intellectual property restrictions are part of the foreseeable future. “Make everything available to everyone” will not be ubiquitous, and SDL techniques are not likely to offer the kind of one-off databases released by statistical agencies today. Statistical agencies already balance what to release to whom against other considerations, and this mode of thinking can, we believe, be crucial to big data.
+We frame the chapter in terms of the “disclosure risk–data utility paradigm” (despite its known limitations). For many big datasets, confidentiality risks of disseminating data may be so high that it is nearly impossible to share unrestricted-use microdata without massive data alterations, which call into question the usefulness of the released big data. Thus, unrestricted access big datasets probably need to take on less ambitious roles than current agency-practice permits; for example, they may serve as code testbeds or permit only simple (valid) analyses.
+Thus, data owners are likely to need trust arrangements for big data access. Nonetheless, the risk-utility paradigm offers guidance if we consider other meaningful analogues of risk. One candidate is the resources necessary to provide access to the data, given that providing a local copy to every researcher may not be feasible. Many agencies, for instance, provide data access by means of remote access servers that mediate between risk and utility. What is the analogue for big data? We do not know the extent to which analysts’ ability to explore data is attenuated in the server setting, which is a question faced but not fully answered in official statistics. Can ideas from statistical disclosure limitation be used to create “exploration datasets” that fill some of this gap?
+Similarly, what is the role of techniques such as secure multi-party computation for analysis of distributed data, which can protect dataset owner privacy but, with proper implementation, also allow principled statistical analysis? For big data, these techniques could make consolidated databases unnecessary. Given that consolidated databases may also be infeasible (scale and timeliness are two reasons why not), these techniques may be crucial.
+In the other direction, “big computation” will force agencies to re-think their concepts of risk and utility. For instance, if there is sufficient computational power for analysts and intruders to enumerate all possible candidates of the restricted dataset from which a publicly released dataset was constructed, what does this mean for existing abstractions of risk and utility?1 Are methods for signal extraction from big data (many of which treat the data as the universe, without consideration of sampling or uncertainty) relevant to our extant concepts of data utility? What does risk mean when every element of a database is available somewhere else, albeit possibly for a cost?
+We cannot, of course, answer all or these and a multitude of related questions. What we do intend is for the chapter to provide a framework for posing and thinking about them in an actionable manner. A preliminary outline is on the next pages.
+We frame the chapter in terms of the “disclosure risk–data utility paradigm” (despite its known limitations). For many big datasets, confidentiality risks of disseminating data may be so high that it is nearly impossible to share unrestricted-use microdata without massive data alterations, which call into question the usefulness of the released big data. Thus, unrestricted access big datasets probably need to take on less ambitious roles than current agency-practice permits; for example, they may serve as code testbeds or permit only simple (valid) analyses.
+Thus, data owners are likely to need trust arrangements for big data access. Nonetheless, the risk-utility paradigm offers guidance if we consider other meaningful analogues of risk. One candidate is the resources necessary to provide access to the data, given that providing a local copy to every researcher may not be feasible. Many agencies, for instance, provide data access by means of remote access servers that mediate between risk and utility. What is the analogue for big data? We do not know the extent to which analysts’ ability to explore data is attenuated in the server setting, which is a question faced but not fully answered in official statistics. Can ideas from statistical disclosure limitation be used to create “exploration datasets” that fill some of this gap?
+Similarly, what is the role of techniques such as secure multi-party computation for analysis of distributed data, which can protect dataset owner privacy but, with proper implementation, also allow principled statistical analysis? For big data, these techniques could make consolidated databases unnecessary. Given that consolidated databases may also be infeasible (scale and timeliness are two reasons why not), these techniques may be crucial.
+In the other direction, “big computation” will force agencies to re-think their concepts of risk and utility. For instance, if there is sufficient computational power for analysts and intruders to enumerate all possible candidates of the restricted dataset from which a publicly released dataset was constructed, what does this mean for existing abstractions of risk and utility?1 Are methods for signal extraction from big data (many of which treat the data as the universe, without consideration of sampling or uncertainty) relevant to our extant concepts of data utility? What does risk mean when every element of a database is available somewhere else, albeit possibly for a cost?
+We cannot, of course, answer all or these and a multitude of related questions. What we do intend is for the chapter to provide a framework for posing and thinking about them in an actionable manner. A preliminary outline is on the next pages.
+FN: One intriguing possibility is being able to distinguish analytically between analysts and intruders; see Cox, Karr and Kinney, ISR, 2011
+
+1 Introduction
+•	Statistical agencies have been evaluating disclosure risks and releasing data for a long time. 
+•	These datasets primarily come from probability surveys or, in some cases (Census, NCES, others?) censuses. Most release public use datasets are not what we would think of as big data, and most do not have complex data types 
+•	This chapter: What lessons can we learn from statistical agencies’ perspectives? Can they apply to big data? What do we see as possible future? 
+2 Experiences from agencies 
+This will be a short section with brief overviews of statistical perspectives, maybe 2 pages.
+
+2.1 Basic concepts
+Set stage for rest of discussion: risk and utility trade offs
+Identification disclosure risk, attribute disclosure risk, perceived identification (attribute) disclosure risk.
+Data utility – specific measures and global measures
+Risk-utility trade offs.
+2.2 Statistical disclosure limitation techniques
+Very brief summary of typical methods – (micro-)aggregation, swapping, synthetic data, noise addition, combinations of these.
+Protection objectives and utility impacts; only brief summaries. Refer to existing literature for details (e.g., Reiter 2012, POQ).
+Note that it is difficult to know impact of SDL on data quality for specific analysis
+2.3 Statistical disclosure risk assessment
+Worry about linking to external files/ outside information (rule out insider jobs).
+
+•	Key decision points for agency: what might intruders know (variables, accuracy of data, who is in or out of sample), what is an acceptable disclosure risk (law says zero, but zero is impossible). 
+•	Record linkage experiments 
+•	Probabilities of identification 
+•	Iterating as necessary between risk assessment and SDL  These types of risk assessments only worry about specific attacks, and that safety on one such attack does not imply safety on other attacks. But agencies want to release data so they evaluate the types of attacks they deem most worrisome and protect against those. 
+
+3 What can apply to big data?
+Here we will discuss what lessons from statistical agency experience are relevant for big data. Some key points include:
+•	With many variables, everyone is a population unique. Many data sets are administrative, so by definition someone other than study collectors knows the person in the database. So one cannot rely on protection from sampling. 
+•	Need to think about tiers of trusted access. Unrestricted public use to mostly trusted. 
+•	For unrestricted public use, methods that make small changes to data are not likely to be sufficiently pro- tective. This rules out swapping and a little bit of partially synthetic data. Aggregation would seem to be difficult to implement well with lots of variables. Synthetic data has a chance, but preserving lots of relationships is hard – could be useful for exploratory/research datasets. Clearly this is an area for research. 
+•	For modest levels of trust, partially synthetic data approaches have promise. For example, synthesize ages, locations, and other demographics while leaving rest on the file. Aggregation seems possible here as well. 
+
+4.  Vision for the future 
+Here we will present our vision for the future, including (i) discussions of what disclosure risk might mean and how it might be assessed with big data and big computation, (ii) how methods based on remote access and secure computation might be useful, and (iii) a vision for a big data dissemination engine involving interplay between unrestricted access, verification of results, and trusted access.
+
+
+ 
+Chapter 10: The Analytical Framework: Portable Approaches To Informed Consent And Open Data 
+AUTHOR John Wilbanks Sage Bionetworks and Kauffman Foundation
+EDITOR
+What frameworks are available to permit data reuse? How can legal and technical systems be structured to allow people to donate their data to science. What are appropriate methods to repurpose traditional consent forms so that user-donated data can be gathered, deidentified and syndicated for use in computational research environments.
+What frameworks are available to permit data reuse? How can legal and technical systems be structured to allow people to donate their data to science. What are appropriate methods to repurpose traditional consent forms so that user-donated data can be gathered, deidentified and syndicated for use in computational research environments
+New:
+This chapter will examine how traditional frameworks to permit data reuse have been left behind by the mix of advanced techniques for re-identification and cheap technologies for the creation of data about individuals. Existing systems typically depend on the idea that de-identification is robust and stable, despite a multitude of studies demonstrating that re-identification is nearly always possible on at least some portion of a de-identified cohort. 
+At issue here is a real risk to scientific progress. If privacy concerns block the redistribution of data on which scientific and policy conclusions are made, reproducing the conditions that led to those will be impossible. 
+Approaches and frameworks that are emerging to deal with this reality tend to fall along two contours. One uses technological and organizational systems to “create” privacy where it has been eroded, while allowing data reuse. This approach draws on encryption and boundary organizations to manage privacy on behalf of individuals. The second applies an approach of “radical honesty” towards data contribution by acknowledging up front the tension between anonymization and utility, and the difficulty of true de-identification. It draws on the traditions of beneficence and utility and autonomy in informed consent to create reusable and redistributable open data, and leverages cloud-based systems to facilitate storage, collaborative reuse, and analysis of data.
+
+Section 1: Introduction of traditional approach. This will primarily cover HIPAA safe harbor de-identification and the failure of de-identification (covered in other chapters but a quick mention – just a few paragraphs).  The bulk of the introduction will examine these as applied in dbGAP.
+
+dbGAP as a quick case study of how this approach has been used to permit data reuse: 
+-	removal of identifiers
+-	posting on the web behind a soft firewall
+-	application by researchers to data access committees
+-	tower of babel of restrictions on data sets
+o	lack of integrated, additive use of dbgap data sets – silo-ization 
+o	note only known grant on topic – try to find more
+-	possibility of re-identification becoming ease of re-identification over time
+o	implications on beneficence, autonomy, justice 
+o	implications for research if the systems are further tighteneed
+
+Section 2: Control-based frameworks for reuse attempt to preserve privacy through either technical or structural-organizational systems while allowing for data usage. 
+
+Framework approaches:
+-	Technocratic (covered in other chapters but a quick mention – just a few paragraphs): 
+o	differential privacy (Dwork)
+o	incremental privacy (Private Access)
+o	homomorphic encryption (Ehrlich)
+-	Structural-Organizational
+o	privacy market (Sweeney)
+o	data banking (Health Records Bank)
+o	bonding / liability (Patients Like Me)
+o	aggregate / services (23andme)
+
+Section 3: Commons-based frameworks for reuse attempt to recruit individuals who understand the risks and uncertainties of making their data available for reuse. These do not attempt to impose significant control systems to preserve privacy but instead seek to create cohorts that are intentionally available for reuse and fully consented for reuse. 
+
+-	Study Based
+o	Open Consent (PGP)
+o	Portable Consent (Sage, Global Alliance)
+-	Standards Based
+o	Interoperable Consent (emerging)
+-	Technological Frameworks for Commons
+o	Synapse (Sage)
+o	Genomic-Clinical (Global Alliance)
+
+Section 4: Conclusion. Emerging methods for data generation that fall outside traditional legal frameworks. More and more, citizens are able to generate data about themselves directly, whether by purchasing it as a consumer service, installing applications on their phones and computers, wearing devices, or more. This data has enormous scientific value but currently sits well outside the legal and regulatory frameworks typically associated with science. Whatever systems emerge for data reuse must be extensible and flexible enough to integrate with the data that is to come, not just the data we have today.
+ 
+
+ 
+Chapter 11: The Analytic Framework for Data: A Cryptographic View
+AUTHOR Cynthia Dwork Microsoft
+EDITOR
+How can differential privacy be applied to help determine the risk of reidentification in big data? How can the differential privacy approach help inform data protection in the context of big data? What constraints does the differential privacy approach put on the utility of data analysis? What are the gaps in our knowledge (i.e what is the future research agenda)?
+Author: Cynthia Dwork, Microsoft Research
+Abstract:  Among, and enabling, the breathtaking advances of modern cryptography is a methodology for defining and proving security.  Central to this methodology is the practice of circumscribing all potential attacks with an ``adversary'' whose powers -- computational and informational -- and goals (what does it mean to ``break'' the system?) are spelled out.  Differential privacy, a definition of privacy tailored to statistical data analysis, emerged from this intellectual tradition.  This chapter motivates and defines differential privacy, gives examples of its power, exhibits an example of a limitation on utility for any nontrivial notion of privacy, discusses challenges and limitations -- both social and technical -- specific to differential privacy, and begins a discussion of ``epsilon,'' a key design parameter in differentially private databases.
+
+Outline:
+1.	The power of definitions: converting the propose-break-propose cycle to a path of progress (1/2 - 1 page).
+
+2.	Motivation and definition of differential privacy, illustrated by the smoking causes cancer example.  Summary of the key properties of differential privacy, including the ability to analyze privacy loss under composition and resilience to arbitrary auxiliary information.  Brief discussion of one or two relaxations of dp that share these properties. (3 pages)
+
+3.	High-level description of some state of the art successes (at least one with numbers), probably differentially private LASSO and some results on contingency tables (up to 5 pages)  
+
+4.	Challenges of private data analysis not specific to differential privacy  (1 page)
+
+5.	Challenges specific to dp: social and technical; this includes a discussion of thinking about ``epsilon.'' (5 pages)
+
+
+
+Chapter 12: The Operational Framework: Institutional Controls
+
+AUTHOR Dazza Greenwood MIT
+EDITOR
+The Operational Framework: Institutional Controls
+Daniel “Dazza” Greenwood, Thomas Hardjono,
+Brian Sweatt, Arek Stopczynski, Yves-Alexandre de Montjoye and
+Alex “Sandy” Pentland
+Abstract
+ 
+To realize the promise and prospects of big data and avoid it’s security and confidentiality perils, a balanced set of institutional controls are needed. These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions. Core capabilities of these controls include responsive rules-based systems governance and fine grained authorizations for distributed rights management.
+Basic drivers and inhibitors underlying the emergence of big data are discussed. Emergent characteristics and capabilities comprising larger big data trends are explored, including the emergence of location and geo-aware services, harbingers arising in urban and dense network environments, web 2.0 cross-system interoperability, federated identity for intensely personal data services and various major industry and governmental dependencies on sharing of or access to massive distributed sources of data.
+This article discusses the role of personal data stores and user-centered identity for data sharing services as key components of a broader New Deal on Data approach. From an institutional perspective, the fit of open data components, extended network systems design and cross-boundary federated infrastructures are examined as part of strategic enterprise architecture.
+Illustrating the nature of institutional controls, the article posits common business, legal and technical use cases in mobile communications, financial services, social networking and e-government from the vantage points of individual users, system providers and third party users or service providers. The current state of affairs is compared with near and longer term future big data scenarios to highlight the emerging dynamics in play.
+The chapter concludes with a discussion of the problems and prospects for managing the transition to big data systems and identifies needed interdisciplinary research agendas in the computational social science, informatics, economic and political science fields.
+
+
+The Operational Framework: Institutional Controls
+
+
+1. The New Realities of Living in a Big Data Society
+[Sandy] Introduction
+
+Basic drivers and inhibitors underlying the emergence of big data are discussed. Emergent characteristics and capabilities comprising larger big data trends are explored, including the emergence of location and geo-aware services, harbingers arising in urban and dense network environments, web 2.0 cross-system interoperability, federated identity for intensely personal data services and various major industry and governmental dependencies on sharing of or access to massive distributed sources of data.
+
+Sustaining a healthy, safe and efficient society is a scientific and engineering challenge that goes back to the 1800s, when the Industrial Revolution spurred rapid urban growth and created huge social and environmental problems. The remedy then was to build centralized networks that delivered clean water and safe food, enabled commerce, removed waste, provided energy, facilitated transportation and offered access to centralized healthcare, police and educational services. 
+
+
+But these century-old solutions are increasingly obsolete. We have cities jammed with traffic, world-wide outbreaks of disease that are seemingly unstoppable and political institutions that are deadlocked and unable to act. In addition, we face the challenges of global warming, uncertain energy, water, and food supplies, and a rising population that will require building one thousand new cities of a million people each in order just to stay even.
+
+
+But it doesn’t have to be this way. We can have cities that are protected from pandemics, that are energy efficient, have secure food and water supplies, and have much better government. To reach these goals, however, we need to radically rethink our approach. Rather than static, fixed systems that are separated by function – water, food, waste, transport, education, energy, and so on – we must consider them as dynamic, data driven systems. Instead of focusing only on access and distribution, we need dynamic, networked, self-regulating systems that are driven by the needs and preferences of the citizens. 
+
+To ensure a sustainable future society, we must use our new technologies to create a `nervous system’ that maintains the stability of government, energy, and public health systems around the globe. Currently, our digital feedback technologies are capable of creating a level of dynamic responsiveness that our larger, more complicated modern society requires. We must reinvent societies’ systems within a control framework: sensing the situation, then combining these observations with models of demand and dynamic reaction, and finally using the resulting predictions to tune the system to match the demands being made of it.  
+
+
+The engine that will drive this new nervous system is big data: the newly ubiquitous digital data now available about all aspects of human life.   By analyzing patterns of human experience and idea exchange within the `digital breadcrumbs’ that we all leave behind us as we move through the world – call records, credit card transactions, and GPS location fixes, among others. These data tell the story of your life by recording what you have chosen to do. And this is very different than what you put on Facebook; your postings on Facebook are what you choose to tell people, edited according to the standards of the day. Who you actually are is more accurately determined by where you spend your time and which things you buy not just what you say that you do .   
+
+The process of analyzing the patterns within these digital breadcrumbs is called `reality mining’, and through reality mining we can tell an enormous amount about who you are. The Human Dynamics research group at MIT have found that we can use them to tell if you are likely to get diabetes, or whether you are the sort of person who will pay back loans. And by analyzing these patterns across many people, we are discovering that we can begin to explain many things – crashes, revolutions, bubbles – that previously appeared to be random `acts of God’. For this reason the magazine Technology Review named our development of reality mining as one of the ten technologies that will change the world.
+
+The New Deal on Data
+
+The digital breadcrumbs we leave behind provide clues about who we are and what we want. That makes these personal data immensely valuable, both for public goods and for private companies. As European Consumer Commissioner Meglena Kuneva said recently, “Personal data is the new oil of the internet and the new currency of the digital world .” This new ability to see the details of every interaction, however, can be used for good or for ill. Therefore maintaining protection of personal privacy and freedom is critical to our future success as a society.
+
+A successful data driven society must be able to guarantee that our data will not be abused – and perhaps especially that government will not abuse the power conferred by access to such fine-grain data. To achieve the positive possibilities of a data driven society, we require what I have called the New Deal on Data – workable guarantees that the data needed for public goods are readily available while at the same time protecting the citizenry. We must develop much more powerful and sophisticated tools for privacy and reach a consensus that allows us to use personal data to both build a better society and to protect the rights of the average citizen.
+
+A key insight that motivates the creation of a New Deal on Data is that your data are worth more when shared, because these aggregated data inform improvements in systems such as public health, transportation, and government. For instance, we have demonstrated that data about the way you behave and where you go can be used to minimize the spread of infectious disease.   Our research has reported how we were able to use these digital breadcrumbs to track the spread of influenza from person to person on an individual level. And if you can see it, you can stop it. In this instance, the result of sharing your personal data is that we can build a world where the threat of infectious pandemics is greatly diminished. 
+
+Similarly, if you're worried about global warming, these shared, aggregated data now show us how patterns of mobility relate to productivity. In turn, this provides us with the ability to design cities that are both more productive and at the same time more energy efficient. But in order to be able to obtain these results and make a greener world, you need to be able to see the people moving around; this depends on many people being willing to contribute their data, even if only anonymously and in aggregate. 
+
+While concrete examples such as better health systems and more energy efficient transportation systems motivate a New Deal on Data, there is an even greater public good that can be achieved by efficient and safe data sharing. To enable sharing of personal data and experiences, we also need secure technology and regulation that allow individuals to safely and conveniently share personal information with each other, with corporations, and with government. Consequently, the heart of a New Deal on Data must be to provide both regulatory standards and financial incentives that entice owners to share data while at the same time serving the interests of both individuals and society at large. We must promote greater idea flow among individuals, not just corporations or government departments.
+
+
+Unfortunately, today most personal data are siloed off in private companies and therefore largely unavailable. Private organizations collect the vast majority of personal data in the form of location patterns, financial transactions, phone and internet communications, and so on. These data must not remain the exclusive domain of private companies, because then the data are less likely to contribute to the common good. Thus, these private organizations must be key players in the New Deal on Data’s framework for privacy and data control. Likewise, these data should not become the exclusive domain of the government, because this will not serve the public interest of transparency and we should be suspicious of trusting the government with such power.
+
+Personal Data: Emergence of a New Asset Class
+
+It has long been recognized that the first step to promoting liquidity in land and commodity markets is to guarantee ownership rights   so that people can safely buy and sell. Similarly, the first step toward creating greater idea and idea flow (`idea liquidity’) is to define ownership rights . The only politically viable course is to give individual citizens rights over data that are about them and in fact, in the European Union these rights flow directly from the constitution. We need to recognize personal data as a valuable asset of the individual that is given to companies and government in return for services .  
+
+The simplest approach to defining what it means to “own your own data” is to draw an analogy with the English common law ownership rights of possession, use, and disposal:
+
+• You have the right to possess data about you. Regardless of what entity collects the data, the data belong to you, and you can access your data at any time. Data collectors thus play a role akin to a bank, managing the data on behalf of their “customers.”
+
+• You have the right to full control over the use of your data. The terms of use must be opt-in and clearly explained in plain language. If you are not happy with the way a company uses your data, you can remove the data, just as you would close your account with a bank that is not providing satisfactory service. 
+
+• You have the right to dispose of or distribute your data. You have the option to have data about you destroyed or re¬deployed elsewhere. 
+
+Individual rights to personal data must be balanced with the need of corporations and governments to use certain data – account activity, billing information, and so on – to run their day-to-day operations. This New Deal on Data therefore gives individuals the right to possess, control, and dispose of copies of these required operational data, along with copies of the incidental data collected about you such as location and similar context. 
+
+Note that these ownership rights are not exactly the same as literal ownership under modern law, but the practical effect is that disputes are resolved in a different, simpler manner than would be the case for (as an example) land ownership disputes.
+
+In 2007, one of us (Pentland) first proposed the New Deal on Data to the World Economic Forum. Since then, this idea has run through various discussions and eventually helped shape the 2012 Consumer Data Bill of Rights in the United States, along with a matching declaration on Personal Data Rights in the EU. These new regulations hope to accomplish the combined trick of breaking data out of the current silos, thus enabling public goods, while at the same time giving individuals greater control over data about them. But, of course this is still a work in progress and the battle for individual control of personal data rages onward.
+
+Enforcement
+
+How can we enforce this New Deal? The threat of legal action is insufficient, because if you can’t see abuses then you can’t prosecute them. Plus, who wants more lawsuits anyway?
+
+The current best practice is a system of data sharing called trust networks. Trust networks are a combination of a computer network that keeps track of user permissions for each piece of personal data, and a legal contract that specifies both what you can and can’t do with the data and what happens if there is a violation of the permissions. In such a system all personal data have attached labels specifying what the data can, and cannot, be used for. These labels are exactly matched by terms in a legal contract between all the participants stating penalties for not obeying the permission labels and giving the right to audit the use of the data. Having permissions, including the provenance of the data, allows automatic auditing of data use and allows individuals to change their permissions and withdraw data.  
+
+A system like this has made the interbank money transfer system among the safest systems in the world, but until recently such systems were only for the `big guys’. To give individuals a similarly safe method of managing personal data, my research group here at MIT, in partnership with the Institute for Data Driven Design  (co-founded by John Clippinger and myself), have helped build openPDS  (open Personal Data Store), a consumer version of this type of system and we are now testing it with a variety of industry and government partners. Soon, sharing your personal data could become as safe and secure as transferring money between banks.
+DOT DOT DOT
+
+
+[Yves?] Unique in the Crowd:
+Problems and prospects for addressing re-identification of aggregate and anonymized data sets;
+
+2. Essential Elements of The New Deal on Data
+[Arek?] Essential Elements of the New Deal of Data in the Context of Institutional Controls
+To realize the promise and prospects of big data and avoid it’s security and confidentiality perils, a balanced set of institutional controls are needed. These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions. Core capabilities of these controls include responsive rules-based systems governance and fine grained authorizations for distributed rights management.
+
+   \section{Essential Elements of the New Deal on Data in the Context of Institutional Controls (Arek)}    
+
+  NOTE: I write 'we' everywhere, but feel free to change if some work should be attributed more precisely.      
+
+To realize the promise and prospects of Big Data, and to avoid its privacy perils, we need a balanced set of institutional controls.  Theses controls must support and reflect a greater user control over personal data, as well as large scale interoperability for data sharing between and among institutions.  The core capabilities of theses controls should include responsive rule-based systems governance and fine grained authorizations for distributed rights management.    
+
+Our lives are embedded within institutions.   We are citizens of countries and cities, receive services from telecom operators, and search for things to buy in online stores.   All the actions we perform generate data, and those breadcrumbs of our lives are an important part of the Big Data promise.  The data are not curated by us, but are collected as is - and reflect our lives.    
+
+Today, all these data people generate in the context of institutions are closed in silos.   Mobility traces, for example, are owned by the phone providers, while musical preferences are stored and used by music services.  For these data to be useful to society the silos must be opened, and the data must be used far more often than they are today.  If access to the data for the purpose of creating value, for either the user or the society, is very limited, it does not matter how big the data is.   The value of the data is not just in the fact that they exist.  Rather, it is the knowledge, understanding, and wisdom we gain from them that makes the data valuable.    It is an even bigger challenge to open up the data from multiple silos.  Accessing the multi-faced data, which exist under multiple jurisdictions, about people may be prohibitively difficult.  Silos are hard to crack open.  Such data, not just Big but Deep, covering multiple facets of a person's life, may be invaluable for research.        
+
+Recently, we have shown how challenging, but also possible, it is to open such institutional Big Data.  In the Data For Development (D4D) Challenge~\footnote{http://www.d4d.orange.com/home}, the telecom operator Orange opened access to a large dataset of call detail records (CDRs) from the Ivory Coast.  Working with the data as part of a challenge, teams of researchers came up with life-changing insights for the country.   The privacy of the people was protected not only by the technical means, such as removal of the Personally Identifiable Information (PIIs), but also by legal means, with the researchers signing an agreement they will not use the data for evil.  As we have seen in several cases, such as the Netflix Prize privacy disaster~\cite{narayanan2008robust} and other similar privacy breaches~\cite{sweeney2000simple}, true anonymization is extremely hard.  Some of the weight of privacy protection must rest on the legal framework.    
+
+Opening data from the silos by publishing static datasets is important, but it is only the first step.   We can do even more important things when the data is available in real time and can become part of a nervous system of a society.  Epidemics and traffic congestions can be monitored and prevented in real time, underpferoming students can be helped, and people with health risks can be treated before they get sick.  The same data can be used for stalking, burglarizing one's home, and as a reason to charge people more for an insurance policy.    
+
+In the Unique in the Crowd project~\cite{de2013unique}, we have shown that even though human beings are highly predictable~\cite{song2010limits}, we are also very unique.  Having access to one dataset, it is easy to uniquely fingerprint someone based on just few datapoints, and use this fingerprint to discover their true identity.   The higher the resolution of the data, the better the data, the easier it gets.  
+
+
+The question of privacy in this context effectively becomes a question of control. 
+Who can release the data of one's movements?
+To whom? 
+How much and how often?
+The data are collected by the institution.
+The data are about people and do not belong to them, they may not even be aware that they exist.
+People cannot decide upon them, cannot check them out.  People cannot delete them.  Very few parties can use the data, even if people wanted them to.
+
+It does not have to be like this.  Within the existing legal frameworks, it is possible to change the vantage point of the data ownership and put the user, the entity about whom the data are, in control.  It may be a copy of the data living in the great silo, which is being given to the user.  The user would become the owner of their copy of the data, or whenever possible the original, in the old Common Law sense with the right to use, transfer, and delete the data.   An example of such a mechanism in an institutional context is Blue Button initiative~\footnote{http://www.healthit.gov/bluebutton}, where the patients can get a copy of their health records.  Once the copy is with the user, they can do with it as they wish: give it to someone, make it public, do research on it, destroy it.      
+
+  The users can accumulate data about themselves from multiple sources.   Information on healthcare records, mobility patterns, favorite movies, etc., all belong to the user and can be accessed based on their authorization.  This changes how and what data that can be obtained for the purpose of research and providing services.  Rather than gaining access to the movements of millions of people from a telcom operator, one can potentially gain access to a smaller number but of much richer datasets describing the users from the mobility, health, shopping  perspectives.  New startups do not have to build the user profile from scratch, but can jump in offering competitive services based on the user's collected data.  Users can immediately get better services, using their data in new places.  
+
+  The first, operational challenge of moving towards the end-user data ownership on a large scale, is to create an ecosystem where such user-owned data are noticed and accessed.  We are currently embedded in a feudal framework: Facebook owns the data generated by and about their users, and provides the access to them to the 3rd parties that user might or might have not authorized.   It is reasonably easy for users to download all their data from Facebook.   It is reasonably easy to put it on Dropbox or even create myself-API, becoming a self-hosted API to one's own personal data.   The challenge is to have clients to talk to this API and provide services, rather than going to Facebook for one's data.   Today, virtually no-one is ready to access user data directly from the user.   We have done a slightly better on the Internet scale with identity: one can deploy own OpenID server fairly easily, and many services will allow the user to sign in. We should be heading in the same direction with data.  
+
+  The way the user grants authorizations to the data she owns is not a trivial matter.  Just answering the very simple question 'Who is authorized to know what city I am in today' may be a challenge.  The 'Yes' the user has clicked so many times has given access to the location data to so many services.  Every tweet, every geo-tagged picture, and every check-in provides the user's location not only to the primary service, but also to all the applications that have been authorized to access these data.  This flow of information was a crucial part of the Web2.0 revolution, with RESTful APIs, mashups, and authorizations.  The complexity of the flow became too large for a user to handle and manage.    
+
+    Increasing the amount of data the user controls and increasing the granularity of the control is meaningless if this control cannot be exercised in an informed way.  The EULA-catastrophe, where the users may be just as well giving up their soul when signing up without reading, will not bring us closer to the New Deal on Data.  In the end it must the be user that makes the informed decision about who will be authorized to access the data and for what purpose.   Making the authorization interface too complex is a failure, preventing the user from understanding her decisions.   Making it too simple, is also a failure, as it will not convey the complexity of the privacy-related decisions.   Writing it in complex legal language makes it very hard to claim that the user expresses informed consent.   And if we start asking the users for authorization every 5 minutes, it will only train them to press 'Yes' every time a pop-up is presented.       
+
+  In addition to the data ownership, we need a better way for the end-user to control what happens with, now their, data.   Will users realize that clicking a single 'Yes' gives a service a second-resolution location data?   And what can be inferred from such data, regarding alcohol abuse ('we see you a lot in a liquor store'), driving habits, not enough exercise.   This gap between the interface, the single click, and the effect, can render the data ownership meaningless.  Even the personal data need to flow in order to be useful.  Protecting the data outside of user domain is very hard.  And probably the worst that can happen is some mutation of Digital Rights Management (DRM) system for personal data.  Such system, where the data can only be used in an approved, secure context, would put the power over the data access back into hands of the big players and their walled gardens, crippling the openness of the Internet.  The cost of maintaining such DRM system, in money and in inhibition of innovation, would be too big.   There is a need for Living Informed Consent, where the interface for the user to grant the authorizations is made to give the user understanding of the consequences, benefits and dangers of the granted authorizations.  This understanding will never be perfect, but aligning what user understands about their decisions with the reality is the goal of the Living Informed Consent concept.       
+
+    We envision several ways the Living Informed Consent can improve user's understanding of the authorizations she is granting.   The underlaying principle is that the status of the authorizations expressed via the interface (website, application) is the contract.  By pressing the buttons, the user initiates technical actions (for example creation of OAuth2 tokens), but also changes her business and legal relation with the service.  Such single screen, with a timestamped log constitutes a history of the consent.   The granularity of offered control may differ, and some actions may or may not be permitted within give institution, agreement, or service.  Still, at any point in time, the user is in certain relation with the service, in the Business, Legal, and Technical domains.   The consent only makes sense when the user understands what she is consenting to.  Why even bother asking otherwise.  Part of the gestalt is to provide concise description of the authorizations written in plain English.  The expression of those authorizations may not always be trivial and may sometime turn into paragraphs of text, yet still the goal should be to provide a description comprehensible for the target audience.  Additionally, the goal should be not only to ask for the access to data, but also include the purpose of the access.  Location is a type of data.  Using location to provide personalized music and using location to increase my insurance for careless driving are two very different authorizations.  Current authorizations frameworks do not really handle on the purpose part, focusing mainly on the data being access, no the reason for access.  This is suboptimal from the user perspective.   
+
+  Where the authorizations are granted, one possible way to make it easier for the user to understand what is happening with the data, is to reduce the dimensionality of the data already in the user-controlled domain, and only send high-level answers to the service requesting them.  A lot can be inferred from a raw location trace.  The moment the raw data leaves the user-controlled domain, it can be used for many things, some of them the user may have never thought about, and could not possibly have expressed informed consent.  Extracting the high-level features of the data on the user side, as described in the openPDS framework, should allow for more informed decisions regarding the data access.  All the raw data should not run wildly with every service providing a minuscule service to the user.  It is much easier to control what can happen and thus what are the consequences of disclosing the city you live in versus all your location updates from the last year.  It is not a perfect solution; even low-dimensionality data can still be used for evil and can be correlated with other sources.  It is however a big step in the right direction, for the user to decide upon disclosing how much liqueur she buys per week versus this information being inferred from the GPS trace provided to a service in exchange for personalized music.  When the control over the data access is given to the user together with the tools to reduce the dimensionality, it becomes less important what data are being collected, only hat is disclosed to the external services.  The user's personal data store becomes a 'master copy' of the data, containing all the possible data points.  The user then controls what answers regarding these data are shown to the world.    
+
+  In addition, the information about data access and usage needs to be an integral part of Living Informed Consent.  How often do services sample user's location?  Are they tracking her in real-time, or do they access the data on a weekly basis?   Is the user singled out in how much data is queried, or is it the same for all the users?  For the user, being able to answer those questions in a simple, even casual way, is crucial for remaining in the state of Living Informed Consent.  Authorizations should not be of 'fire and forget' kind, instead they should be re-evaluated in some orderly fashion.  How often this should happen depends on multiple factors, including the sensitivity of the data accessed, reputation of the service, user preferences, the balance between control and annoyance.     
+
+  Giving the data ownership to the end-user makes it easier for the institutions to facilitate the data use.  As the users are the fully-empowered parties to make decisions about authorizing access to all their data, multiple silos do not have to be visited and contracts between them made.  It is sufficient to talk to the end-user to gain access to all the data about her.  This way, the institutions can facilities the data use becoming a matchmaking service for data access rather than data handlers, simplifying their process, while still potentially benefiting from being the 'data directory'.      
+
+  A crucial component for realizing this vision is the identity of the user.  It must be possible for multiple institutions to find the user to give the data to.  It must be possible for the user to identify multiple institutions and see where the data is coming from.  It must be easier than remembering passwords and logging in separately to every service.  All the questions we have asked so far about the data (who owns, who controls, who decides, who accesses) must have the 'who' component addressed.      
+
+  Just as the data of the user should live under single control of this user, the identity should also be brought closer to user control.  It does not necessarily mean every user should be their own identity provider, but rather than having hundreds of accounts in multiple services that do not interoperate or know about each other, the identity of the user should be build on the principle of federated identity, where the services allow the user to choose their identity provider.  In addition, just like data, certain attributes of identity need to be protected.  Service does not need to know the user's email address to be able to log the user in, a pseudonym (random but consistent string) is sufficient.  If such service has a valid reason for asking for the users address, it should be based on the users grant of authorization.  Authorization can be revoked and monitored.    
+
+  In the existing system it is often hard to introduce user data ownership.  This may be due to technical reasons, such as building the infrastructure to provide the space for the data.  It may be for business or legal reasons where the data is considered not suitable for sharing.  It may be for the lack of a clear incentive as to why to do it, or how to interact with the users during the process of introduction and afterwards.  We feel the first step in introducing more privacy into such system is the notion the user must be entitled to at least know about the existence of the data about her.  The right to know about the data existence is hard to deny. It can be realized more smoothly than the transfer of the actual data.  It can be the first step towards The New Deal on Data, enforced by a legal framework.  
+
+3. Personal Data Services and The Role of openPDS
+[Brian?] openPDS a exemplary implementation
+[under development]
+[Team?] Emerging marketplace personal data standards, services and products [under development] [Thomas?] Identity and User Granted Authorizations
+The role of personal data stores and user-centered identity for data sharing services as key components of a broader New Deal on Data approach. From an institutional perspective, the fit of open data components, extended network systems design and cross-boundary federated infrastructures are examined as part of strategic enterprise architecture.
+
+4. The Role of Institutional Enterprise IT Governance and Change Management
+[Thomas?] Life-Cycle Industry and Enterprise Adoption of Identity and Data Standards
+The example of MIT Kerberos and Internet Trust Consortium's successfull management of the MIT Keberos open source code and standardization by and with large enterprises from a variety of economic sectors and in the public and private sectors is described. The powerful capabilities and potential fit of this model for achieving the New Deal on Data by institutions is explored with reference to a ramp up toward initial adoption, broader migration, continued use and change management. Synergies with longer term strategic planning and target enterprise architecture roadmaps are considered.  
+The Role of a CIO, CTO and CISO in managing institutional controls needed for Big Data across the extended-enterprise.
+
+[Dazza?] Leveraging Existing Institutional Oversight and Control Methods
+Common institutional audit types are described with emphasis on current emerging trends to reflect data flow and access reporting/compliance from audit assessment criteria standards groups and industry associations or certification bodies. Opportunities to align New Deal on Data functional capabilities with corresponding institutional IT governance, oversight and management controls are explored.
+The example of NSTIC/IDESG voluntery multi-stakeholder self organization as a potential source of common approaches to institutional and industry-wide agreement and adoption processes.  
+
+The IRB evolving approval process, concepts of informed consent, permission-based data-set reusability.  Discussion of how new approaches to flexible longitudinal oversight for computational social science research studies happening with recent FERPA audit and research regulatory reform and IRB modernization can serve in part as a generalizable model of institutional controls and methods. 
+
+5. Benchmark Scenarios and Use Cases
+[Team?] Past and Current Use Cases
+Common business, legal and technical use cases in mobile communications, financial services, social networking and e-government from the vantage points of individual users, system providers and third party users or service providers.
+[Sandy? Team?] Future-State Use Cases With and Without New Deal on Data
+The current state of affairs is compared with near and longer term future big data scenarios to highlight the emerging dynamics in play. Common features of post-New Deal on Data modifications or replacement use cases are described and poignant use cases demonstrating dystopic future without a New Deal on Data are contrasted. The pivotal role of openPDS and enshrining user knowledge and consent with respect their own data and personal data about them is demonstrated by the extrapolated contrasting future-state use cases.
+
+6. Research and Development Supporting Strategic Transition and Change Management
+[Thomas?] Research and Innovation Agenda
+Managing the transition to big data systems and identifies needed interdisciplinary research agendas in the computational social science, informatics, economic and political science fields;
+[Sandy] Future Research
+
+Our traditional methods of testing and improving government, organizations, and so on are of limited use in building a data driven society. Even the scientific method as we normally use it no longer works, because there are so many potential connections that our standard statistical tools generate nonsense results.
+
+The reason is that with such rich data, you can easily uncover misleading correlations. For instance, let’s imagine we discover that people who are unusually active are more likely to get the flu. This is a real example: when we examined the minute-by-minute behavior of a small university community – a real-time flow of gigabytes per day for an entire year – we noticed that an unusual level of running around often predicted onset of the flu. But if we can only analyze the data using traditional statistical methods, we have the problem of why is it true? Is it because flu virus makes us more active in order to spread itself more quickly? Or did interacting with many more people than usual make you more likely to catch the flu? Or is it something else? From the real-time stream of data by itself you just can’t know. 
+
+
+The point here is that normal analysis methods don't suffice to answer these sorts of questions, because we don’t know all the possible alternatives and so we can’t form a limited, testable number of clear hypotheses. Instead, we need to devise new ways to test the causality of connections in the real world. We can no longer rely on laboratory experiments; we need to actually do the experiments in the real world, and usually on massive, real-time streams of data.
+
+Using massive, live data to design institutions and policies is outside of our normal way of managing things. We live in an era that builds on centuries of science and engineering, and the standard choices for improving systems, governments, organizations, and so on are fairly well understood. Therefore our scientific experiments normally need only consider a few clear alternatives (i.e., ‘plausible hypotheses’).  
+
+But with the coming of big data, we are going to be operating very much out of our old, familiar ballpark. These data are often indirect and noisy, and so interpretation of the data requires greater care than is usual. Even more importantly, a great deal of the data is about human behavior, and the questions are ones that seek to connect physical conditions to social outcomes. Until we have a solid, well-proven and quantitative theory of social physics, we won’t be able to formulate and test hypotheses in the way we can when we design bridges or develop new drugs.
+
+Therefore, we must move beyond the closed, laboratory-based question-and-answering process that we currently use and begin to manage our society in a new way. We have to begin to test connections in the real world far earlier and more frequently than we have ever had to do before, using the methods my research group and I have developed for the Friends and Family study or the Social Evolution study. We need to construct Living Laboratories – communities willing to try a new way of doing things or, to put it bluntly, to be guinea pigs – in order to test and prove our ideas. This is new territory and so it is important for us to constantly try out new ideas in the real world in order to see what works and what doesn’t.  
+
+An example of such a Living Lab is the `open data city’ I have just launched with the city of Trento in Italy, along with Telecom Italia, Telefonica, the research university Fondazione Bruno Kessler, the Institute for Data Driven Design, and local companies. Importantly, this Living Lab has the approval and informed consent of all its participants – they know that they are part of a gigantic experiment whose goal is to invent a better way of living. More detail on this Living Lab can be found at http://www.mobileterritoriallab.eu/
+
+The goal of this Living Lab is to develop new ways of sharing data to promote greater civic engagement and exploration. One specific goal is to build upon and test trust-network software such as our openPDS (Personal Data Store) system . Tools such as openPDS make it safe for individuals to share personal data (e.g., health data, facts about your children) by controlling where your data go and what is done with them. 
+
+The specific research questions we are exploring depend upon a set of “personal data services” designed to enable users to collect, store, manage, disclose, share and use data about themselves. These data can be used for the personal self-empowerment of each member, or (when aggregated) for the improvement of the community through data commons that enable social network incentives. The ability to share data safely should enable better idea flow among individuals, companies, and government, and we want to see if these tools can in fact increase productivity and creative output at the scale of an entire city.
+
+	An example of an application enabled by the openPDS trust frame work is sharing of best practices among families with young children. How do other families spend their money? How much do they get out and socialize? Which preschools or doctors do people stay with for the longest time? Once the individual gives permission, our openPDS system allows such personal data to be collected, anonymized and shared with other young families safely and automatically. 
+	
+	The openPDS system lets the community of young families learn from each other without the work of entering data by hand or the risk of sharing through current social media. While the Trento experiment is still in its early days, the initial reaction from participating families is that these sorts of data sharing capabilities are valuable, and they feel safe sharing their data using the openPDS system.
+	
+	The Trento Living Lab will let us investigate how to deal with the sensitivities of collecting and using deeply personal data in real-world situations. In particular, the Lab will be used as a pilot for the New Deal on Data and for new ways to give users control of the use of their personal data. For example, we will explore different techniques and methodologies to protect the users’ privacy while at the same time being able to use these personal data to generate a useful data commons. We will also explore different user interfaces for privacy settings, for configuring the data collected, for the data disclosed to applications and for those shared with other users, all in the context of a trust framework. 
+ 
+
+
+
+Chapter 13: The Operational Framework: Engineered Controls
+
+Carl Landwehr George Washington University
+EDITOR
+What can we learn from trustworthy computing approaches to protecting data? What is the conceptual framework that is used to understand software vulnerabilities in high security environments? How might the lessons learned from cybersecurity research be used to enable access to, but protect the confidentiality of, data on human beings?
+Abstract
+
+This chapter will inform the reader about technical means for enforcing confidentiality and integrity policies in networked computer systems generally and "big data" systems specifically. The aim is for broad understanding rather than deep technical detail. The reader should be able to gain a general knowledge of the mechanisms used to enforce particular policies, vulnerabilities of those mechanisms, and threats that might exploit those vulnerabilities, as well as an idea of what questions one might wish to ask about policy enforcement in "big data" systems.
+First, the history of computer-based security controls is sketched, and a high level set of questions a user of "big data" systems might want to ask of a provider is listed.  The likely threats to systems of interest are discussed from the perspectives of the user/researcher and the collector/provider of the resource. Next, vulnerabilities are considered and then strategies for defending systems in the face of the likely threats and vulnerabilities.  Types of access control and information flow policies are discussed, along with typical means for enforcing those policies.  Detection and remediation of problems are considered, and some specific comments on the issues raised by the scale of big data systems. Finally, gaps in the present systems and areas where progress may be expected in the future are surveyed.
+
+Outline:
+
+0. Introduction. 
+    Motivations, Brief historical overview of engineered controls. 
+    Questions to ask.
+1. Threats to big data: accidental, malicious
+    Consider from perspective of the researcher (user of the collection) 
+    and the provider/custodian of the data.
+    Threats to confidentiality, integrity, access, provenance
+2. Vulnerabilities: accidental, engineered
+    Again consider both the user and provider systems
+3. Strategies: prevention, accountability, on the infeasibility of perfection
+4. Types of Technical controls
+    4.1 Access control and information flow policies
+        Role-based controls
+        Usage-based controls
+    4.1 Reference monitors 
+        centralized
+        distributed (in-line)
+    4.3 Policies enforceable by reference monitors
+    4.4 Role of encryption
+        media encryption
+    	attribute based encryption
+    	secure multiparty computation / homomorphic encryption
+    4.4 Software integrity//TPM
+    4.6 Provenance and data longevity
+5. Detection and Remediation
+    5.1 Backups
+    5.2 Restoration
+6. Destruction, sanitization, remanance
+7. Issues of scale: virtual machines, 
+8. Gaps and future research
+
+
+ 
+Chapter 14: Viewing privacy through a different lens
+
+AUTHOR Peter Elias University of Warwick
+EDITOR
+This chapter provides an overview of the European experience with big data, and examines the consequences for research and data analysis when countries operate under different legal frameworks. There will be a particular focus on the UK example, which has led the way in developing frameworks for access to administrative data, but has different jurisdictions. The primary focus is on prgamatic lessons learned from the European experience, what is necessary to be changed and how is change to be achieved.
+Chapter 14: Viewing privacy through a different lens
+Author: Peter Elias, University of Warwick
+
+Abstract:
+This chapter is presented in two parts.  The first part is essentially an historical overview of the progress that has been made at the European level to provide a consistent approach to legislation designed to protect individuals from harm arising from the misuse of their data and to provide them with the right to privacy.  It outlines the evolution of protocols and practice across Europe relating to issues of confidentiality and privacy in the use of data for research purposes.  It traces the development of treaties and conventions from the period shortly after the Second World War (Council of Europe, Convention 108; 1950) through to the present day (European Commission COM(2012) 11 final), focussing particularly upon the degree to which these conventions and regulations have provided a balance between the demand for access to detailed personal information for research purposes and the desire to protect the identity of individuals and preserve confidentiality.  It considers also the relationship between the rapid pace of technical developments taking place over these decades (in data generation, communication, transmission, access and storage) and the need to maintain a legislative environment designed to safeguard individuals from misuse of their data.
+Europe has no federal structure.  Countries must therefore adapt their own legislation and practices to conform to these supra-national goals.  The resulting complex web of legal statutes, enacted with varying interpretations across many countries, has created immense problems for those who wish to gain access to personal data for research purposes.  To explore these problems, and to provide some indication of the practical solutions that are being developed, the second part of the chapter examines in some detail two specific cross-national developments.  The first of these is the work currently underway within the United Kingdom to improve access to government administrative data for research purposes (ESRC, MRC and Wellcome Trust, Report of the Administrative Data Taskforce; 2012).  Given its devolved structure and the fact that the four countries of the United Kingdom have, in varying degrees, separate legal powers, access to, linkage between and sharing of personal information between the countries of the UK has been problematic.  The challenge has been to find solutions to these problems without recourse to new legislation.  The second development examines how the academic sector is working with national statistical agencies in different countries to find ways to facilitate cross-border access to and sharing of personal information.  Data without Boundaries is an ambitious programme designed to highlight problems of access and to find innovative solutions to these problems.
+The chapter concludes with an assessment of the lessons learnt from these examples and their relevance to the ‘Big data’ agenda.  ‘Big data’ arise in many scientific fields, often with no national boundaries constraining them.  Their exploitation as research resources presents data scientists with new and potentially valuable research opportunities.  In the social, economic and medical sciences the work needed to gain this value is complicated further by the fact that such data are about people whose privacy must be respected.  While much more work remains to be done, the relevance of these examples is clear.
+
