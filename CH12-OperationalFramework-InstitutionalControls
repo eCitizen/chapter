@@ -130,6 +130,22 @@ Just as the data of the user should live under single control of this user, the 
 
 In the existing system it is often hard to introduce user data ownership.  This may be due to technical reasons, such as building the infrastructure to provide the space for the data.  It may be for business or legal reasons where the data is considered not suitable for sharing.  It may be for the lack of a clear incentive as to why to do it, or how to interact with the users during the process of introduction and afterwards.  We feel the first step in introducing more privacy into such system is the notion the user must be entitled to at least know about the existence of the data about her.  The right to know about the data existence is hard to deny. It can be realized more smoothly than the transfer of the actual data.  It can be the first step towards The New Deal on Data, enforced by a legal framework.  
 
+Using Business, Legal and Technical Scenarios to Understand and Navigate
+
+Supporting the New Deal on Data as part of Institutional Controls involves governance, business, legal and technical aspects.  The following scenarios demonstrate signature features of the New Deal on Data in various contexts and serve as an anchor to evaluate what Institutional Controls are well aligned.  
+
+1. Research Systems
+Scenario: Computational Social Science Research Studies
+
+2. Educational Systems
+
+3. Government Systems 
+
+4. Healthcare Systems
+
+5. Commerce Systems
+
+
 Integrated Data, Identity and Authorization Services
 
 [Under Development]
