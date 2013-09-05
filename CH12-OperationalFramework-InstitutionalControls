@@ -1,9 +1,15 @@
+
+
+--
 Chapter 12: The Operational Framework: Institutional Controls
 FIRST DRAFT: SEPTEMBER 3, 2013
 
 Daniel "Dazza" Greenwood MIT
 Arek Stopczynski, DTU
 Alex “Sandy” Pentland, MIT
+
+
+Context and Conceptual Framework
 
 To realize the promise and prospects of big data and avoid it’s security and confidentiality perils, institutions are updating operational frameworks governing business, legal and technical dimensions of their organization and it's interactions with the outside world.  A balanced set of institutional controls are needed to achieve operational frameworks of this nature. These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions. Core capabilities of these controls include responsive rules-based systems governance and fine grained authorizations for distributed rights management.
 
@@ -23,9 +29,7 @@ The process of analyzing the patterns within these digital breadcrumbs is called
 
 The Role of Institutional Controls
 
-#Note Re Editor Feedback on Abstract: "It would be helpful to start with defining institutional controls are and why they are needed, and contrast them very briefly with other approaches that control data rights downstream (ie. through legal restrictions at the access stage)." Therefore including some info on what IC's are and how they relate to how institutions would implement New Deal on Data and other modernizations.
-
-The phrase "institutional controls" refers to safeguards and protections by use of legal, policy, governance and other non-strictly technical, engineering or mechanical measures.  Currently, this approach is most commonly reflected technically as some form of ‘enterprise controls" [fn.1] related to security and legally as "regulatory compliance" [fn.2].  The use of institutional controls of this type are fundamental methods for achieving and maintaining the transition to a digital, networked and big data footing for any private company, government agency or other organization.  
+The phrase "institutional controls" refers to safeguards and protections by use of legal, policy, governance and other non-strictly technical, engineering or mechanical measures .  Currently, this approach is most commonly reflected technically as some form of ‘enterprise controls" [fn.1] related to security and legally as "regulatory compliance" [fn.2].  The use of institutional controls of this type are fundamental methods for achieving and maintaining the transition to a digital, networked and big data footing for any private company, government agency or other organization.  
 
 Consider the analogy of institutional controls in the context of environmental law, and how these types of measures can be applied in the big data, privacy and access context to digital environments.  In the context of land, institutional controls for environmental regulatory compliance with waste management cleanup requirements could include restrictions on land use attached to a property deed, an enforceable consent order or regulations and zoning rules.[fn1]
 
@@ -46,12 +50,6 @@ Current Landscape And Future Outlook Of Enterprise Mobile Security
 October 2012, by Forrester Consulting, http://www.juniper.net/us/en/local/pdf/industry-reports/secure-data-access.pdf section "Enterprise Mobility Outlook — Mobility Enters A Strategic Planning Stage" at 15 "Enterprise mobility technologies, especially those designed to retrofit enterprise controls on top of consumer mobile devices, are rapidly evolving. This was a message we heard loud and clear in the study." This study and analysis also reveals much about the internal controls needed to accomodate mobile device use by employees.  In both capacities as employee, consumer and other roles, the use of mobile devices triggers myriad legal, policy and other implications for institutional controls.  
 
 [fn.2] Legal and regulatory frameworks such as HIPAA and Sarbanes-Oxley (SOX) require covered organizations to established integrated sets of governance, legal, transactional, security and other internal controls to avoid violating the rules. The institutional controls are accomplished in tight integration with engineering and other measures in order to ensure compliance and to control legal and security risk.  
-
-[fn1] See:  Institutional Control Glossary of Terms, 
-http://www.epa.gov/epawaste/hazard/correctiveaction/resources/guidance/ics/glossary1.pdf
-"Institutional Controls - Non-engineering measures intended to affect human activities in such a way as to prevent or reduce exposure to hazardous substances. They are almost always used in conjunction with, or as a supplement to, other measures such as waste treatment or containment. There are four categories of institutional controls: governmental controls; proprietary controls; enforcement tools; and informational devices."
-
-See also Restrictive Covenants as Institutional Controls for Remediated Sites: Worth the Effort? by Ralph A. DeMeo and Sarah Meyer Doar, http://www.floridabar.org/divcom/jn/jnjournal01.nsf/Author/B4771DA17861D66085257825005232CC  "Institutional controls are administrative and legal controls that help minimize the potential for human exposure to contamination and/or protect the integrity of the physical remedy. They can include recorded restrictive covenants, but land use laws and regulations, deed restrictions, department consent orders, and conservation easements are all institutional controls."
 
 [fn2] See, FDEP, Division of Waste Management, Institutional Controls Procedures Guidance at 22 (Nov. 2010), available at www.dep.state.fl.us/waste/quick_topics/publications/wc/csf/icpg.pdf ""...RMO III does contemplate contamination beyond the Property boundaries, which would require agreement by the adjacent owners to put an RC on their properties as well."
 
@@ -104,7 +102,7 @@ One current best practice is a system of data sharing called trust networks. Tru
 
 A system like this has made the interbank money transfer system among the safest systems in the world, but until recently such systems were only for the `big guys’. To give individuals a similarly safe method of managing personal data, the Human Dynamics research group here at MIT, in partnership with the Institute for Data Driven Design, co-founded by John Clippinger and one author (Pentland), have helped build openPDS  (open Personal Data Store) [fn: See http://openPDS.media.mit.edu for project information and https://github.com/HumanDynamics/openPDS for the open source code].  The openPDS system is a consumer version of a personal cloud trust network and we are now testing it with a variety of industry and government partners. Soon, sharing your personal data could become as safe and secure as transferring money between banks.
 
-Essential Elements of the New Deal of Data in the Context of Institutional Controls
+Essential Elements of the New Deal of Data
 
 To realize the promise and prospects of Big Data, and to avoid the associated privacy perils, we need a balanced set of institutional controls. Theses controls must support and reflect a greater user control over personal data, as well as large scale interoperability for data sharing between and among institutions. 
 
@@ -175,9 +173,69 @@ Just as the data of the user should live under single control of this user, the 
 
 In the existing system it is often hard to introduce user data ownership.  This may be due to technical reasons, such as building the infrastructure to provide the space for the data.  It may be for business or legal reasons where the data is considered not suitable for sharing.  It may be for the lack of a clear incentive as to why to do it, or how to interact with the users during the process of introduction and afterwards.  We feel the first step in introducing more privacy into such system is the notion the user must be entitled to at least know about the existence of the data about her.  The right to know about the data existence is hard to deny. It can be realized more smoothly than the transfer of the actual data.  It can be the first step towards The New Deal on Data, enforced by a legal framework.  
 
-Using Business, Legal and Technical Scenarios to Understand and Navigate
+Systems and Rules 
 
-Supporting the New Deal on Data as part of Institutional Controls involves governance, business, legal and technical aspects.  The following scenarios demonstrate signature features of the New Deal on Data in various contexts and serve as an anchor to evaluate what Institutional Controls are well aligned.  
+Data literally exists within systems.  Specifically, business systems, legal systems and technical systems are the key types needed to understand the operational framework of networked data.  When it comes to data intended to be accessible over networks – whether big, personal or otherwise – the traditional container of an institution makes less and less sense.   Institutional controls apply, by definition by or to some type of institutional entity such as a business, governmental or religious organization.  A combined view of the business, legal and technical facts and circumstances surrounding big data is necessary to know what access, confidentiality and other expectations exist.  The relevant contextual aspects of big data of one institutional is often profoundly different from that of another.   As more and more organizations use and rely upon big data, a single formula for institutional controls will not work for increasingly heterogeneous business, legal and technical environments in play.  
+
+Looking at an institution as a “system” is one effective approach for dealing with the inherent complexity of managing heterogeneous and distributed networks of actors and interactions.  
+
+Once a systems view is adopted, there is a tractable starting point to narrow or broaden the scope of view to see the smaller and larger systems and to make better and more effective use and control of big data.  Within a given institution, there may in fact be many different discernable institutions and corresponding systems and any given system of one institution will frequently in fact exist across many different discernable institutions.  However, defining the thing to which institutional controls must operate as a system provides an achievable and measurable basis for balancing privacy, access and other interests in big data.  
+
+Systems of Systems
+
+The same forces that are making it nearly impossible to enumerate, track and control data shared over networks are also blurring the boundaries and very definition of institutions.  Large organizations are hardly recognizable as a single entity to start with.  The divisions, subsidiaries, departments and other parts of large organizations are often tantamount to independent institutions.  Sometimes the divergent nature of parts is the result of mergers or acquisitions and consequent legacy systems not yet or ever fully integrated to rest of the firm.  In fact, it is very common for top decision makers to deliberately reject system re-use or compatibility in favor internally non-interoperable systems that will nonetheless provide a cost, quality or other business advantage in a specific competitive marketplace.  
+
+Big and complex enterprise systems are themselves part of one or more larger “enterprise” system.  The module for on-boarding a newly hired employee to an organization may be part of a human resources department integrated enterprise system, or may be part of an identity management enterprise system or a financial management system or any number or other systems and in any combination.  
+
+Meanwhile, as these systems generate data, they are individually and together the birth events and original dwelling places of big data.  And the big data operates in direct sync with the business, legal and technical dimensions of the environments in which is was created and later resides.  From a business vantage point, it is the combination of team, resources and processes of a variety of organizations that comprise a given product or service.  As more businesses rely upon the use of deeply integrated API’s and orchestrated series of services from many disparate sources, there may soon be no discernable “institution” upon which to exercise meaningful controls.  
+
+From the information technology vantage point, what once was a simple “corporate network” is now frequently an “extended enterprise” enabling the integration of many sets of functional capabilities and operations with a wide variety of external organizations.  From the business perspective, it is common for important services, core components and even whole networks of an organization to exist completely outside the ownership, control or detailed knowledge of that organization.  The same basic trend plays out accordingly from a legal perspective.  A composite of partner agreements, exchange network operating rules, supply chain terms, outsourced provider contracts, cloud based service licenses and a wide variety of other legal instruments and methods reflect and support the distributed nature of enterprises today. 
+
+Key Contextual Aspects of Systems
+
+There are a handful of key aspects of the operational framework for any given system from which practical approaches to confidentiality and data access can be selected.  Those contextual aspects are:
+
+1. A definite number and type of applications, services, platforms, infrastructure and other parts of the system;
+2. A definite number of organizations and humans that have operational roles (e.g. administrator access, user accounts and other access rights), ownership and/or management roles for one or more parts of the system;
+3. A definite set of data that exists in, among or is passes through one or more part of the system; and
+4. A definite set of interactions, transactions and other actions conducted in, with, through or by one or more parts of the system.  
+
+By establishing just a few of the above relevant aspects of a big data system, it is possible to establish applicable business contexts, legal requirements and technical capabilities necessary to predict and control privacy, access and other outcomes.
+
+To some extent, any one of a system’s contextual aspects enumerated above blur with other aspects. For example, when the transaction being conducted is “credit card authorization” then the data-sets can be deduced from the relevant transaction type (which specifies that particular data be transmitted in a particular format and method, including such things as the identity of the card holder, the merchant, the acquiring bang, the issuing bank, the transaction processor, the dollar amount requested for authorization, and so on).  
+
+Similarly, knowing the answer to item #1 (e.g. the applications, services and hardware) of a given system can itself establish a lot of the other enumerated contextual aspects above.  For instance, if the big data arises from an “air traffic control” system for a given United States commercial airport, then large sets of expected roles can be deduced (e.g. airlines, pilots, ground crew, municipal regulators, approved auditors, etc).  
+
+Furthermore, one can determine conclusively  the exact parties conducting each such role for any given periods of time (i.e. the names and addresses of each relevant airline, pilot, mayor, etc).  In this way, otherwise imponderable but pivotal factors are rendered tractable, such as what professional or fiduciary duties of care apply to a given party which may require or prohibit the sharing of a particular set of data, or whether a party has perhaps consented to the release of otherwise protected data.  
+
+The sub-parts of these components will frequently correspond to different sets of expectations for data access, confidentiality and other outcomes, precisely because various subparts have different parties, interactions, rules, and other knowable context enumerated above. Consider that the part of a system comprising “Ground Movement Control” applies to vehicles, interactions, parties, etc that differ materially from “Terminal Radar Approach Control” and so on for many parts of the system, and therefore respective expectations for data access and confidentiality will correspond accordingly. And yet, the applicable rules, relevant parties, specific data, particular interactions and other key aspects can be definitely established for any part or for the entire system at any point in time. 
+
+The controls applied by or to any given governmental, corporate or other “institution” may be profoundly inadequate to guess how confidentiality and data access do apply or could be structured to apply to big data running through that organization.  Because each of the enumerated contextual system aspects can be known for a system at any given time, therefore a rational and reliable basis exists to establish confidentiality, data access and other important questions related to the big data of that system.  Seeing the surrounding context of big data through the lens of systems affords a realistic and actionable premise to develop and deploy workable controls and reasonable expectations with respect to big data.  
+
+System Rules and Interlateral Agreements
+
+The rules governing systems are perhaps the more important lever of institutional control for big data.  Especially when large, complex systems comprised of smaller or overlapping systems crossing business boundaries are in play, it is the system rules agreed by al parties that actually define, bound and govern the expectations about data and it’s uses.  
+
+An example of multi-party system rules is…
+
+From a legal vantage point, asking what actions with big data are being conducted by which parties can enable a lawyer to determine the applicable laws or other rules.  A definite set of rules applicable to one or more parts of the system, including statutes, regulations, judicial holdings, corporate policies, contractual or license provisions, accreditation or certification obligations and other rules;  
+
+Some controls will have to be applied by and to many different institutions in order to prevent leakage and to achieve predictable results.  To address privacy and data access, a variety of institutional controls will be needed, and in varied combinations with engineering and other controls.  Establishing an appropriate set of institutional controls will depend upon such factors as the type of institution using big data, what big data being used, how it is used, who is using it, and when it is used.  
+
+[under development]
+
+
+Integrated Data, Identity and Authorization Services
+
+[Under Development]
+
+Institutional IT Governance and Change Management
+
+[Under Development]
+
+Benchmark Scenarios
+
+Supporting the effective development of institutional controls for big data requires an understanding of how to define and work with the applicable context surrounding the scenarios within which the big data exists.  In particular, the New Deal on Data will require a set of Institutional Controls involving governance, business, legal and technical aspects that are knowable only with reference to the relevant context of a factually based scenario of use.  The following scenarios demonstrate signature features of the New Deal on Data in various contexts and serve as an anchor to evaluate what Institutional Controls are well aligned.  
 
 1. Research Systems
 Scenario: Computational Social Science Research Studies
@@ -202,22 +260,13 @@ Many studies will be willing to offer money or other value for the access to the
 
 3. Government Systems 
 
-4. Healthcare Systems
+4. Healthcare Systems 
+
+[Pending]
 
 5. Commerce Systems
 
-
-Integrated Data, Identity and Authorization Services
-
-[Under Development]
-
-The Role of Institutional Enterprise IT Governance and Change Management
-
-[Under Development]
-
-Benchmark Scenarios and Use Cases
-
-[Under Development]
+[Pending]
 
 Future Research 
 
@@ -245,5 +294,6 @@ The specific research questions we are exploring depend upon a set of “persona
 	The openPDS system lets the community of young families learn from each other without the work of entering data by hand or the risk of sharing through current social media. While the Trento experiment is still in its early days, the initial reaction from participating families is that these sorts of data sharing capabilities are valuable, and they feel safe sharing their data using the openPDS system.
 
 	The Trento Living Lab will let us investigate how to deal with the sensitivities of collecting and using deeply personal data in real-world situations. In particular, the Lab will be used as a pilot for the New Deal on Data and for new ways to give users control of the use of their personal data. For example, we will explore different techniques and methodologies to protect the users’ privacy while at the same time being able to use these personal data to generate a useful data commons. We will also explore different user interfaces for privacy settings, for configuring the data collected, for the data disclosed to applications and for those shared with other users, all in the context of a trust framework. 
+
 
 
