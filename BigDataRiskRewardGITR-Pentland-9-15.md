@@ -1,11 +1,11 @@
+Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentland 9/2013  
+#Big Data: Balancing the risks and rewards of data driven public policy
 
-
-
-Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentland 9/2013
-Big Data: Balancing the risks and rewards of data driven public policy
-Alex Pentland, MIT
+Alex Pentland, MIT  
 pentland@mit.edu
-OVERVIEW
+
+##OVERVIEW
+
 In June 2013, massive U.S. surveil ance of phone records and Internet data was revealed by
 former National Security Agency (NSA) contractor Edward Snowden, who cal ed these activities the
 “architecture of oppression.” His disclosures ignited an overdue public debate on the balance between
@@ -14,7 +14,9 @@ Finding this balance is an issue of vital and urgent interest to corporations an
 ordinary citizens around the world. This report will outline both the risks and the rewards of this new
 age of big data, address policy issues in this area and provide practical recommendations for a way
 forward.
-INTRODUCTION
+
+## INTRODUCTION
+
 Data about human behavior, such as census data, have always been essential for both
 government and industry. In recent years, however, a new methodology for collecting these data about
 human behavior has emerged. By analyzing patterns within the `digital breadcrumbs’ that we all leave
@@ -24,6 +26,7 @@ panics – that previously appeared to be random events. These new tools, with t
 complexity, are the future of social science and public policy. Just as the microscope and telescope
 revolutionized the study of biology and astronomy, `socioscopes’ have the potential to revolutionize
 regulation and public policy.
+
 The risk of deploying this sort of data driven policy and regulation comes from the danger of
 putting so much personal data in the hands of either companies or governments. Fortunately, new
 approaches to regulation and technology have been developed that can help protect personal privacy
@@ -31,7 +34,9 @@ from exploitation, and can mitigate the problem of government overreach as wel .
 technology must continue to evolve in order to provide more scientific, real-time public policy while not
 exposing citizens to the dangers of exploitative companies or an al -knowing authoritarian government;
 this report will provide practical recommendations to achieve these goals.
-A BIG DATA TAXONOMY
+
+## A BIG DATA TAXONOMY
+
 It is probably hopeless to try to provide a detailed taxonomy of data types and uses because the
 technology is progressing so quickly. But it is possible to provide a broad taxonomy framed in terms of
 control. The three main divisions within the spectrum of data control are: (1) data commons, which are
@@ -44,6 +49,7 @@ The preferred lens for examining these issues is experimentation in the real wor
 arguments from theory or first principles, because using massive, live data to design institutions and
 1
 Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentland 9/2013
+
 policies is outside of our traditional way of managing things. In this new digital era we cannot only rely
 on existing policy, tradition or even laboratory science, because the strengths and weaknesses of big
 data analysis are very different from standard information sources. To begin to manage our society in a
@@ -52,22 +58,27 @@ answering processes. Instead, we need to try out new policy ideas within living 
 diverse communities that are willing to try a new way of doing things – in order to test and prove our
 ideas. This is new territory and so it is important for us to constantly try out new ideas in the real world
 in order to see what works and what doesn’t.
-DATA COMMONS
+
+## DATA COMMONS
+
 The first entry in the data taxonomy is the data commons. A key insight is that our data are
 worth more when shared because they can inform improvements in systems such as public health,
 transportation, and government. Using a “digital data commons” can potentially give us unprecedented
 instrumentation of how our policies are performing so we can know when to take action to quickly and
 effectively address the situation.
+
 We already have many data commons available: maps, census data, and financial indices. With
 the advent of big data we can potential y develop many more types of data commons, and these
 commons can be both `real time’ and far more detailed than previous examples. This is because these
 new digital commons depend mostly on data that are already produced as a side-effect of ongoing daily
 life (e.g., digital transaction records, cel phone location fixes, road toll records, etc.) and because they
 can be produced automatical y by computers without human intervention.
+
 One major concern with such a data commons is that they can endanger personal privacy.
 Another secondary concern involves the tension between commercial or personal interests: these
 proprietary interests might tend to reduce the richness of such a commons, and diminish the ability of
 such a data commons to enable significant public goods.
+
 To explore the viability of a big data commons, what is perhaps the world’s first true ‘big data’
 commons was unveiled on May 1, 2013. In this Data for Development (D4D) initiative, ninety research
 organizations from around the world reported hundreds of results from their analysis of data describing
@@ -78,6 +89,7 @@ Nation’s Global Pulse, the World Economic Forum, and the GSMA (which is the mo
 international trade association). The D4D progam was led by Nicolas De Cordes (Orange), Vincent
 Blondel (Louvain), Alex Pentland (MIT), Robert Kirkpatrick (UN Global Pulse), and Bill Hoffman (World
 Economic Forum).
+
 The ninety projects that explored the use of this data commons cover many different aspects of
 better governance. An example of using the D4D data to improve social equality was highlighted by
 work done by researchers at the University Col ege of London, who developed a method for mapping
@@ -88,6 +100,7 @@ California, San Diego. This method relies on the fact that ethnic and language g
 more within their own group than they communicate with others groups. This project is significant
 because, while we know that ethic violence often erupts along such boundaries, the government and aid
 agencies are usually uncertain about the geography of these social fault zones.
+
 The D4D data was utilized to understand and promote operational efficiency through an analysis
 by IBM’s Dublin laboratory of Ivory Coast’s the public transportation system. This analysis showed that
 2
@@ -95,6 +108,7 @@ Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentlan
 for very little cost, the average commute time in Abidjan, the Ivory Coast’s biggest city, could be cut by
 10 percent. Other research groups demonstrated similar potentials for operational improvements in the
 areas of government, commerce, agriculture, and finance.
+
 Finally, examples of using D4D data to improve social resiliency include analysis of disease
 spread by groups from Novi Sad University (Serbia), EPFL (Switzerland), and Birmingham (UK). These
 research groups showed that smal changes in the public health system could potential y cut the spread
@@ -106,19 +120,23 @@ potential of a big data commons for improving society. From the point of view of
 demonstrates the potential for new lines of business that combine this data commons with customers
 personal data: Imagine phone apps that advises commuters about which bus wil get them to work
 quickest, or helps citizens reduce the risk of catching the flu.
+
 The work of these ninety research groups also suggests that many of the privacy fears
 associated with the release of data about human behavior may be general y misunderstood. In this data
 commons, the data were processed by advanced computer algorithms (e.g., sophisticated sampling and
 use of aggregated indicators) so that it was unlikely that any individual could be re-identified. In fact, no
 path to re-identification was discovered by the even though several of the research groups that studied
 this specific question.
+
 In addition, while the data were freely available for any legitimate research that a group was
 interested in, the data were distributed under a legal contract that specified that they the data could
 only be used for the purpose proposed and only by the specific people making the proposal. A similar
 technology-legal framework is used in trust networks described in the next section. The use of both
 advanced computer algorithms and contract law to specify and audit how personal data may be used
 and shared is the goal of new privacy regulations in the EU, the United States, and elsewhere.
-PERSONAL AND PROPRIETARY DATA
+
+## PERSONAL AND PROPRIETARY DATA
+
 The second category in the data taxonomy is personal and proprietary data, typically controlled
 by individuals or companies, for which there needs to be legal and technology infrastructure that
 provides strict control and auditing of use. The current best practice is a system of data sharing called
@@ -127,11 +145,13 @@ permissions for each piece of personal data, and a legal contract that specifies
 be done with the data and what happens if there is a violation of the permissions. This is the model of
 personal data management that is most frequently proposed within the World Economic Forum
 Personal Data Initiative.
+
 In such a system all personal data have attached labels specifying what the data can, and
 cannot, be used for. These labels are exactly matched by terms in a legal contract between al the
 participants stating penalties for not obeying the permission labels and giving the right to audit the use
 of the data. Having permissions, including the provenance of the data, al ows automatic auditing of data
 use and allows individuals to change their permissions and withdraw data.
+
 Today, there are long-standing versions of trust networks that have proven to be both secure
 and robust. The best known example is the SWIFT network for inter-bank money transfer and its most
 distinguishing feature is that it has never been hacked. When asked why he robbed banks, bank robber
@@ -140,6 +160,7 @@ where the money is – trillions of dollars per day. This trust network has not 
 but it also makes sure the money reliably goes where it is supposed to go. Until recently such systems
 3
 Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentland 9/2013
+
 were only for the `big guys’. To give individuals a similarly safe method of managing personal data, my
 research group and I here at MIT, in partnership with the Institute for Data Driven Design
 (http://idcubed.org), have helped build openPDS (open Personal Data Store), a consumer version of this
@@ -158,6 +179,7 @@ Italy, supported by Telecom Italia, Telefonica, my MIT research group, the Fonda
 Institute for Data Driven Design, and local companies within Trento. Importantly, this living lab has the
 approval and informed consent of all its participants – they know that they are part of a real-world
 experiment whose goal is to invent a better way of living [5].
+
 The goal of this living lab is to develop new ways of sharing data to promote greater civic
 engagement and information diffusion. One specific goal is to build upon and test trust-network
 software such as the openPDS system, by deploying a set of “personal data services” designed to enable
@@ -168,6 +190,7 @@ for the personal self-empowerment of each member, or (when aggregated) for creat
 commons that supports improvement of the community. The ability to share data safely should enable
 better idea flow among individuals, companies, and government, and we want to see if these tools can
 in fact increase productivity and creative output at the scale of an entire city.
+
 The Trento living lab will also investigate how to deal with the sensitivities of collecting and
 using deeply personal data in real-world situations. For example, it wil explore different techniques and
 methodologies to protect the users’ privacy while at the same time being able to use these personal
@@ -176,7 +199,9 @@ for configuring the data col ected, for the data disclosed to applications and f
 users, all in the context of a trust framework. While the Trento experiment is still in its early days, the
 initial reaction from participating families is that these sorts of data sharing capabilities are valuable, and
 they feel safe sharing their data using the openPDS system.
+
 GOVERNMENT DATA
+
 The third category in the taxonomy is secret government data. A major risk of deploying data
 driven policies and regulations comes from the danger of putting so much personal data in the hands
 governments. But how can it happen that governments, especial y authoritarian governments, choose
@@ -204,6 +229,7 @@ intelligence and terrorist organizations. Importantly, resistance to attack by a
 organization is a particularly pressing issue for authoritarian governments, because unfettered access to
 data about citizen behavior can be a major aid to organizing a successful coup to overthrow the
 government.
+
 What does al this have to do with the danger that a big data government will trample individual
 freedoms? The key insight is that for these types of data systems, each type of data analysis operation
 has a characteristic pattern of communication between different databases and human operators. As a
@@ -225,6 +251,7 @@ remains hidden. For example, a health official responsible for maintaining healt
 see if those records are suddenly being accessed by the finance records office with unusual frequency,
 and may inquire if that is proper. In contrast, when copies of all the data types are all in one place, it is
 easy for people to conduct unauthorized analyses.
+
 The computer architecture for this type of system is very similar to the trust networks described
 in the previous section: distributed data stores with permissions, provenance, and auditing for sharing
 between data stores. In this case, however, the data stores are segmented by their referent, e.g., tax
@@ -240,19 +267,23 @@ companies with large, complex databases. Misbehavior by employees, industrial es
 attack are among the greatest dangers that companies face in the big data era. A distributed
 architecture of databases joined with a network that supports permissions, provenance, and auditing
 can reduce risk and increase resilience of companies’ internal data analysis functions.
-SUMMARY
+
+## SUMMARY
+
 We are entering a big data world, where governance is far more driven by data than in the past.
 Basic to the success of a data-driven society is the protection of personal privacy and freedom.
 Discussions at the World Economic Forum have made substantial contributions to altering the privacy
 and data ownership standards around the world in order to give individuals unprecedented control over
 data that are about them, while at the same time providing for increased transparency and engagement
 in both the public and private spheres.
+
 We still face the challenge that large organizations, and in particular governments, may be
 tempted to abuse the power of the data that they hold. To address this concern we need to establish
 best practices that are in the interest of both large organizations and individuals. This paper has
 suggested one path in which potential abuses of power can be limited, while at the same time providing
 greater security for organizations that use big data. The key policy recommendations for all large
 organizations, commercial or government, are that:
+
 1) Large data systems should store data in a distributed manner, separated by type (e.g.
 financial vs. health) and real-world categories (e.g., individual vs. corporate), managed by a
 department whose function is focused on that data, and with sharing permissions set and
@@ -260,6 +291,7 @@ monitored by personnel from that department. Best practice would have the custod
 data be regional and use heterogeneous computer systems. With such safeguards in place,
 it is difficult to attack many different types of data at once, and it is more difficult to
 combine data types without authentic authorization.
+
 2) Data sharing should always maintain provenance and permissions associated with data, and
 support automatic, tamper-proof auditing. Best practice would share only answers to
 questions about the data (e.g., by use of pre-programmed SQL queries known as `Database
@@ -271,16 +303,19 @@ control, permissions, provenance, and auditing, and should include the use of st
 legal agreements such as those employed in trust networks, as described earlier. Otherwise
 data can be siphoned off at the data source or end consumer, without the need for
 attacking central system directly.
+
 4) The need for a secure data ecosystem extends to the private data of individuals and the
 proprietary data of partner companies. As a consequence best practice for data flows to
 and from individual citizens and businesses is to require them to have secure personal data
 stores and be enrolled in a trust network data sharing agreement [2,3,4].
 5) Al entities should employ secure identity credentials at al times. Best practice is to base
 these credentials on biometric signatures [6].
+
 6) Create an `open’ data commons that is available to partners under a lightweight legal
 agreement, such as the trust network agreements. Open data can generate great value by
 allowing third parties to improve services.
 6
+
 Accepted to World Economic Forum Annual Global IT Report, copyright Alex Pentland 9/2013
 While these recommendations might at first glance seem cumbersome, they are for the most
 part easily implemented with the standard protocols found within modern computer databases and
@@ -290,6 +325,7 @@ solution: all that is really new is the careful use of provenance, permissions a
 regulatory framework such as a trust network. Most importantly, these recommendations will result in
 a data ecosystem that is more secure and resilient, allowing us to safely reap the advantages of using big
 data to help set and monitor public policy.
+
 References
 [1]
 http://www.d4d.orange.com/home
