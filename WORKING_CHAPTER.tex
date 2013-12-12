@@ -1,72 +1,76 @@
 \section{Introduction and Overview (Arek)}
 
-To realize the promise and prospects of a Big Data society and avoid its security and confidentiality perils, institutions are updating operational frameworks governing business, legal, and technical dimensions of their organization and interactions with the outside world.
-The control points traditionally relied upon as part of corporate governance, management oversight, legal compliance, and enterprise architecture must evolve to match operational frameworks for Big Data.
+To realize the promise and prospects of a Big Data society and avoid its security and confidentiality perils, institutions are updating operational frameworks governing business, legal, and technical dimensions of their internal organization and interactions with the outside world.
+The control points traditionally relied upon as part of corporate governance, management oversight, legal compliance, and enterprise architecture must evolve and expand to match operational frameworks for Big Data.
 An operational framework used for a Big Data driven organization requires a balanced set of institutional controls.
-These institutional controls must support and reflect greater user control over personal data and also large scale interoperability for data sharing between and among institutions.
+These institutional controls must support and reflect greater user control over personal data and large scale interoperability for data sharing between and among institutions.
 Core capabilities of these controls include responsive rule-based systems governance and fine-grained authorizations for distributed rights management.
+In the following sections we explore the emergence of the Big Data Society, outline the ways to support it in the institutional context, and draft the future directions of research and development.
 
 \section{The New Realities of Living in a Big Data Society (Arek)}
 
-Sustaining a healthy, safe and efficient society is a scientific and engineering challenge that goes back to the 1800s, when the Industrial Revolution spurred rapid urban growth and created huge social and environmental problems.
-The remedy then was to build centralized networks that delivered clean water and safe food, enabled commerce, removed waste, provided energy, facilitated transportation, and offered access to centralized healthcare, police, and educational services.
+Sustaining a healthy, safe and efficient society is a scientific and engineering challenge that goes back to the 1800s, when the Industrial Revolution spurred rapid urban growth, creating huge social and environmental problems.
+Then the remedy was to build centralized networks that delivered clean water and safe food, enabled commerce, removed waste, provided energy, facilitated transportation, and offered access to centralized healthcare, police, and educational services.
+Those networks formed a backbone of the society as we know it today.
 
-But these century-old solutions are increasingly obsolete.
-We have cities jammed with traffic, world-wide outbreaks of disease that are seemingly unstoppable, and political institutions that are deadlocked and unable to act.
-In addition, we face the challenges of global warming, uncertain energy, water, and food supplies, and a rising population that will require building one thousand new cities of a million people each in order just to stay even. \comment{AS}{citation?}
+But these century-old solutions are becoming increasingly obsolete and inefficient.
+We have cities jammed with traffic, world-wide outbreaks of disease that are seemingly unstoppable, and political institutions that are deadlocked, unable to act.
+We face the challenges of global warming, uncertain energy, water, and food supplies, and a rising population that will require building one thousand new cities of a million people each in order just to stay even. \comment{AS}{citation?}
 
-But it does not have to be this way.
-We can have cities that are protected from pandemics, that are energy efficient, have secure food and water supplies, and have much better government.
+It does not have to be this way.
+We can have cities that are protected from pandemics, energy efficient, have secure food and water supplies, and have much better government.
 To reach these goals, however, we need to radically rethink our approach.
-Rather than static, fixed systems that are separated by function–-water, food, waste, transport, education, energy, and so on–-we must consider them as dynamic, data driven systems.
-Instead of focusing only on access and distribution, we need dynamic, networked, self-regulating systems that are driven by the needs and preferences of the citizens.
+Rather than static fixed systems, separated by function --- water, food, waste, transport, education, energy, etc. --- we must consider them as dynamic, data driven networks.
+Instead of focusing only on access and distribution, we need dynamic, networked, and self-regulating systems that are driven by the needs and preferences of the citizens.
 
-To ensure a sustainable future society, we must use our new technologies to create a `nervous system’ that maintains the stability of government, energy, and public health systems around the globe.
-Currently, our digital feedback technologies are capable of creating a level of dynamic responsiveness that our larger, more complicated modern society requires.
-We must reinvent societies’ systems within a control framework: sensing the situation, then combining these observations with models of demand and dynamic reaction, and finally using the resulting predictions to tune the system to match the demands being made of it.
+To ensure a sustainable future society, we must use our new technologies to create a \emph{nervous system} maintaining the stability of government, energy, and public health systems around the globe.
+And our digital feedback technologies are capable of creating a level of dynamic responsiveness that our larger, more complicated modern society requires.
+We must reinvent societies’ systems within a control framework: sensing the situation, then combining these observations with models of demand and dynamic reaction, and finally using the resulting predictions to tune the system to match the demands.
 
-The engine that will drive this new nervous system is Big Data: the newly ubiquitous digital data now available about all aspects of human life.
-We can now analyze patterns of human experience and idea exchange within the `digital breadcrumbs’ that we all leave behind us as we move through the world: call records, credit card transactions, and GPS location fixes, among others.
-These data tell the story of our lives by recording what we have chosen to do.
-And this is very different from what we put on Facebook; our postings on Facebook are what we choose to tell people, edited according to the standards of the day.
-Who we actually are is more accurately determined by where we spend our time and which things we buy, not just what we say we do.
+The engine that drives this new nervous system is Big Data: the newly ubiquitous digital data, now available about all aspects of human life.
+We can now analyze patterns of human experience and idea exchange within the \emph{digital breadcrumbs} that we all leave behind as we move through the world: call records, credit card transactions, GPS location fixes, among others.
+By recording are choices, these data tell the story of our lives.
+This is very different from what we decide to put on Facebook or Twitter; our postings there are what we choose to tell people, edited according to the standards of the day.
+Who we actually are is even more accurately determined by where we spend our time and which things we buy, rather than just what we say we do.
 
 The process of analyzing the patterns within these digital breadcrumbs is called reality mining~\cite{eagle2006reality,pentland2009reality}, and through it we can learn an enormous amount about who we are.
-The Human Dynamics research group at MIT have found that we can use them to tell if we are likely to get diabetes, or whether we are the sort of person who will pay back loans.
-By analyzing these patterns across many people, we are discovering that we can begin to explain many things–-crashes, revolutions, bubbles–-that previously appeared to be random acts of God.
+The Human Dynamics research group at MIT have found that we can use them to tell if we are likely to get diabetes, or whether we are the sort of person who will pay back loans.\comment{AS}{citation?}
+By analyzing these patterns across many people, we are discovering that we can begin to explain many things --- crashes, revolutions, bubbles --- that previously appeared to be random acts of God. \comment{AS}{citation?}
 For this reason the magazine Technology Review named our development of reality mining as one of the ten technologies that will change the world\cite{greene2008reality}. 
 
 \section{The New Deal on Data (Arek)}
 
 The digital breadcrumbs we leave behind provide clues about who we are and what we want.
-That makes these personal data immensely valuable, both for public goods and for private companies.
-As European Consumer Commissioner Meglena Kuneva said recently, ``Personal data is the new oil of the Internet and the new currency of the digital world''.
+This makes these personal data immensely valuable, both for public good and for private companies.
+As European Consumer Commissioner Meglena Kuneva said recently, ``Personal data is the new oil of the Internet and the new currency of the digital world''. \comment{AS}{citation?}
 This new ability to see the details of every interaction, however, can be used for good or for ill.
-Therefore maintaining protection of personal privacy and freedom is critical to our future success as a society.
+Therefore, maintaining protection of personal privacy and freedom is critical to our future success as a society.
 
-A successful data driven society must be able to guarantee that our data will not be abused; and perhaps especially that government will not abuse the power conferred by access to such fine-grain data.
-To achieve the positive possibilities of a data driven society, we require what I have called the New Deal on Data, workable guarantees that the data needed for public goods are readily available while at the same time protecting the citizenry~\cite{pentland2009reality}.
-We must develop much more powerful and sophisticated tools for privacy and reach a consensus that allows us to use personal data to both build a better society and to protect the rights of the average citizen.
+A successful data driven society must be able to guarantee that our data will not be abused; perhaps especially that government will not abuse the power conferred by access to such fine-grain data.
+To achieve the positive possibilities of a data driven society, we require the \emph{New Deal on Data}, workable guarantees that the data needed for public goods are readily available while at the same time protecting the citizenry~\cite{pentland2009reality}.
+We must develop much more powerful and sophisticated tools for privacy and reach a consensus that allows us to use personal data to both build a better society and to protect the rights of the citizens.
 
-A key insight that motivates the creation of a New Deal on Data is that our data are worth more when shared, because these aggregated data inform improvements in systems such as public health, transportation, and government.
+The key insight that motivates the creation of the New Deal on Data is simply that our data are worth more when shared, because these aggregated data inform improvements in systems such as public health, transportation, and government.
 For instance, we have demonstrated that data about the way we behave and where we go can be used to minimize the spread of infectious disease~\cite{madan2010social, pentland2009using}.
 Our research has reported how we were able to use these digital breadcrumbs to track the spread of influenza from person to person on an individual level.
-And if we can see it, we can stop it. In this instance, the result of sharing our personal data is that we can build a world where the threat of infectious pandemics is greatly diminished.
+And if we can see it, we can stop it.
+Here the result of sharing our personal data is that we can build a world where the threat of infectious pandemics is greatly diminished.
 
 Similarly, if we are worried about global warming, these shared, aggregated data now show us how patterns of mobility relate to productivity. \comment{AS}{citation?}
-In turn, this provides us with the ability to design cities that are both more productive and at the same time more energy efficient.
-But in order to be able to obtain these results and make a greener world, we need to be able to see the people moving around; this depends on many people being willing to contribute their data, even if only anonymously and in aggregate.
+In turn, this provides us with the ability to design cities that are more productive and, at the same time, more energy efficient.
+But in order to be able to obtain these results and make a greener world, we need to be able to see the people moving around; this depends on many people willing to contribute their data, even if only anonymously and in aggregate.
 
-While concrete examples such as better health systems \comment{AS}{citation?} and more energy efficient transportation systems \comment{AS}{citation?} motivate a New Deal on Data, there is an even greater public good that can be achieved by efficient and safe data sharing.
-To enable sharing of personal data and experiences, we also need secure technology and regulation that allow individuals to safely and conveniently share personal information with each other, with corporations, and with government.
-Consequently, the heart of a New Deal on Data must be to provide both regulatory standards and financial incentives that entice owners to share data while at the same time serving the interests of both individuals and society at large.
+While concrete examples such as better health systems and more energy efficient transportation systems motivate the New Deal on Data, there is an even greater public good that can be achieved by efficient and safe data sharing.
+To enable sharing of personal data and experiences, we need secure technology and regulation that allow individuals to safely and conveniently share personal information with each other, with corporations, and with government.
+Consequently, the heart of the New Deal on Data must be to provide both regulatory standards and financial incentives that entice owners to share data, while at the same time serving the interests of both individuals and society at large.
 We must promote greater idea flow among individuals, not just corporations or government departments.
 
 Unfortunately, today most personal data are siloed off in private companies and therefore largely unavailable.
-Private organizations collect the vast majority of personal data in the form of location patterns, financial transactions, phone and Internet communications, and so on.
+Private organizations collect the vast majority of the personal data in the form of location patterns, financial transactions, phone and Internet communications, etc.
 These data must not remain the exclusive domain of private companies, because then they are less likely to contribute to the common good.
-Thus, these private organizations must be key players in the New Deal on Data framework for privacy and data control.
-Likewise, these data should not become the exclusive domain of the government, because this will not serve the public interest of transparency; we should be suspicious of trusting the government with such power.
+These private organizations must be thus the key players in the New Deal on Data framework for privacy and data control.
+Likewise, these data should not become the exclusive domain of the government, as this will not serve the public interest of transparency; we should be suspicious of trusting the government with such power.
+Ultimately, the entities who should be empowered to share and make decisions about their data, are people themselves; people who are users, participants, citizens.
 
 \section{Personal Data: Emergence of a New Asset Class (Thomas)}
 
