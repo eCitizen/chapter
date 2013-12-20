@@ -1,1 +1,1 @@
-This Repository is provided to facilitate collaborative drafting and coordination for writing the chapter titled: "The Operational Framework: Institutional Controls" for the CUSP Book tited: [Big Data, Privacy, and the Public Good: Frameworks for Engagement](http://www.dataprivacybook.org/)
+This Repository is provided to facilitate collaborative drafting and coordination for writing the chapter titled: "The Operational Framework: Institutional Controls" for the CUSP Book: [Big Data, Privacy, and the Public Good: Frameworks for Engagement](http://www.dataprivacybook.org/)
