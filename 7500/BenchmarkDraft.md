@@ -1,24 +1,24 @@
 \section{The New Realities of Living in a Big Data Society }
 
-### Content:
+### Content: 0
 
 To realize the promise and prospects of a Big Data society and avoid its security and confidentiality perils, institutions are updating operational frameworks governing business, legal, and technical dimensions of their internal organization and interactions with the outside world.
 In this chapter we explore the emergence of the Big Data society, outline ways to support it in the context of institutional controls within the framework of the New Deal on Data, and describe future directions for research and development.
 
-### Content:
+### Content: 01
 
 The control points traditionally relied upon as part of corporate governance, management oversight, legal compliance, and enterprise architecture must evolve and expand to match operational frameworks for Big Data.
 An operational framework used for a Big Data driven organization requires a balanced set of institutional controls.
 These controls must support and reflect greater user control over personal data, as well as large scale interoperability for data sharing between and among institutions.
 Core capabilities of these controls include responsive rule-based systems governance and fine-grained authorizations for distributed rights management.
 
-### Content:
+### Content: 02
 
 Sustaining a healthy, safe, and efficient society is a scientific and engineering challenge dating back to the 1800s when the Industrial Revolution spurred rapid urban growth, thereby creating huge social and environmental problems.
 The remedy then was to build centralized networks that delivered clean water and safe food, enabled commerce, removed waste, provided energy, facilitated transportation, and offered access to centralized healthcare, police, and educational services.
 Those networks formed the backbone of society as we know it today.
 
-### Content:
+### Content: 03
 
 These century-old solutions are, however, becoming increasingly obsolete and inefficient.
 We have cities jammed with traffic, world-wide outbreaks of disease that are seemingly unstoppable, and political institutions that are deadlocked and unable to act.
