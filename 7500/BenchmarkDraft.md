@@ -1,5 +1,7 @@
 \section{The New Realities of Living in a Big Data Society }
 
+### BenchmarkDraft
+
 ### Content: 0
 
 To realize the promise and prospects of a Big Data society and avoid its security and confidentiality perils, institutions are updating operational frameworks governing business, legal, and technical dimensions of their internal organization and interactions with the outside world.
